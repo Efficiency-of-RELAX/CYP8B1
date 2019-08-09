@@ -23,6 +23,8 @@ echo $tree|sed "s/$focal/$focal{foreg}/g" > temp.tree
 #for each set of background species create a tree file
 for backs in `echo $back|tr "-" "\n"`
 do
+sed -i "s/$backs/$backs{back}/g" temp.tree
+done
 cat "$i"_PRANK.aln > tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_raxml_tree_labelled
 cat temp.tree >> tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_raxml_tree_labelled
 workdir=`pwd`
@@ -31,7 +33,6 @@ echo -ne "14\n9\n1\n"$workdir"/tree_"$treecount".focal_"$focal".comb_$count.comb
 #Run HYPHYMP
 HYPHYMP < relax.config > "$workdir"/results/results.tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_.txt
 combcount=`echo $combcount|awk '{print $1+1}'`
-done
 done
 done
 treecount=`echo $treecount|awk '{print $1+1}'`
