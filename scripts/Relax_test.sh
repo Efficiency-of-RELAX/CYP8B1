@@ -29,12 +29,12 @@ cat "$i"_PRANK.aln > tree_"$treecount".focal_"$focal".comb_$count.comback_"$comb
 cat temp.tree >> tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_raxml_tree_labelled
 workdir=`pwd`
 #Create a config file to run HYPHY
-echo -ne "14\n9\n1\n"$workdir"/tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_raxml_tree_labelled\nY\n3\n2\n1\n" > relax.config
+echo -ne "14\n9\n1\n"$workdir"/tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_raxml_tree_labelled\nY\n3\n2\n2\n" > relax.config
 #Run HYPHYMP
 HYPHYMP < relax.config > "$workdir"/results/results.tree_"$treecount".focal_"$focal".comb_$count.comback_"$combcount"_.txt
 combcount=`echo $combcount|awk '{print $1+1}'`
 done
 done
-treecount=`echo $treecount|awk '{print $1+1}'`
 done
+treecount=`echo $treecount|awk '{print $1+1}'`
 done
