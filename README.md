@@ -36,5 +36,12 @@ CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. 
 <p align="center">
   <img src="/relaxation_tests/Wombat_Figure_Extra_1.jpeg?raw=true" width="350" title="Wombat relax test tree topologies">
 </p>
+<p align="center">
+  <img src="/relaxation_tests/Wombat_Figure_Extra_2.jpeg?raw=true" width="350" title="Relax test results">
+</p>
+<p align="center">
+  <img src="/relaxation_tests/Wombat_Figure_Extra_3.jpeg?raw=true" width="350" title="Relax test results">
+</p>
+Signatures of relaxed selection represented as a combination of K values (K<1 is relaxed selection & K>1 intensified selection) denoting the intensity of change in selection and corresponding p-values in species from the infraclass Marsupialia (Ornithorhynchus anatinus or duck-billed platypus, Vombatus ursinus or the common wombat and Phascolarctos_cinereus or the koala bear) along with outgroup species consisting of Dasypus_novemcinctus (Nine-banded armadillo) from order Cingulata, Erinaceus europaeus (European hedgehog) and Sorex_araneus (Eurasian shrew) from order Eulipotyphla. Each data point in the figure is the result of one hypothesis test each. Tests that showed significant relaxation of selection are shown in filled squares while those that are not significant are shown as empty circles. The colour of each data point corresponds to one of the three tree topologies shown in panel A. (A) Tree topologies used to assess signatures of relaxed selection (B & C) Relax test results
 
   
