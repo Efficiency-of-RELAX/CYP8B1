@@ -32,3 +32,9 @@ CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. 
 <li>modeltest-ng</li> (Darriba et al. 2019)   
 <li>raxml-ng</li>
 <li>HyPhy (2.3.14)</li>   
+<h2 style="text-align: center;"><strong>Results</strong></h2>
+<p align="center">
+  <img src="/relaxation_tests/Wombat_Figure_Extra_1.jpeg?raw=true" width="350" title="Wombat relax test tree topologies">
+</p>
+
+  
