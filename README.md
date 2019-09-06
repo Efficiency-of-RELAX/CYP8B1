@@ -15,7 +15,7 @@ CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. 
 <li><span style="text-decoration: underline;">scripts:</span> The scripts used for performing the ORF validation, multiple sequence alignment, model testing, tree topology inference and tests for relaxed selection are provided. Contents of this folder (scripts and instructions) along with published software tools should be suffecient to replicate all the results described in the manuscript. </li>
 <li><span style="text-decoration: underline;">relaxation_tests:</span> Output files obtained after running the RELAX program implemented in the HYPHY package.</li>
   
-  <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="Workflow_CYP8B1.jpg?raw=true" align=right height=350/></div>
+  <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="Workflow_CYP8B1.jpg?raw=true" align=right height=400/></div>
   
 <span style="text-decoration: underline;">Prerequisites:</span>
 <ol>
