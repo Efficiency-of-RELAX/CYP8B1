@@ -1,5 +1,5 @@
 # Testing RELAX on CYP8B1 gene in Birds & Mammals 
-CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The code and data provided in this project are part of the below manuscript. The scripts and data are organised to ensure the integrity, credibility and replicability of the results reported. However, the goal of this repository is not to release a fully-automate pipeline and is beyond the scope of this manuscript. You can access/cite the publication with the following information "Shinde, S.S., Teekas, L., Sharma, S. et al. J Mol Evol (2019). https://doi.org/10.1007/s00239-019-09903-6". A pre-publication pre-print of the same is available here: https://www.biorxiv.org/content/10.1101/714188v1
+CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The code and data provided in this project are part of the below manuscript "Shinde, S.S., Teekas, L., Sharma, S. et al. J Mol Evol (2019). https://doi.org/10.1007/s00239-019-09903-6". A pre-publication pre-print of the same is available here: https://www.biorxiv.org/content/10.1101/714188v1
 
 ### Data is organised into the following folders
 
@@ -12,8 +12,8 @@ CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. 
   
   <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="Workflow_CYP8B1.jpg?raw=true" align=right height=450/></div>
   
-<span style="text-decoration: underline;">Prerequisites:</span>
-<ol>
+### Prerequisites :
+
 <li><span style="text-decoration: underline;">PRANK (v.140603)</li>
 <li>MUSCLE (v3.8.31)</li>
 <li>MAFFT (v7.407)</li>
