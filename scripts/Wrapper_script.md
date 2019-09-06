@@ -9,6 +9,12 @@
 
 #### 2.2 Validate all ORFs using a forloop
 
+Validate the ORFs before running RELAX. It will detect :
+- In-frame stop codons.
+- DNA "ambiguity" characters other than N.
+- lack of stop codon at the end of the sequence.
+- lack of start codon at the beginning of start codon.
+
 ```
 cd /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1
 for i in `ls -1 ORFs/*fa`
