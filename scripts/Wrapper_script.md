@@ -3,11 +3,11 @@
 
 ### 2. Validate ORFs 
 
-2.1 Install dos2unix to remove any dos special characters
+#### 2.1 Install `dos2unix` to remove any dos special characters
 
 `sudo apt-get install dos2unix`
 
-2.2 Validate all ORFs using a forloop
+#### 2.2 Validate all ORFs using a forloop
 
 ```
 cd /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1
