@@ -18,8 +18,20 @@ dos2unix $i
 perl scripts/ORFvalidator.pl $i
 done
 ```
+Result looks like this :
 
-#Calculate Mean GC content for each ORF. Use a window size of 100 with a step size of 10.
+<p align="center">
+  <img src="https://lkuvng.dm.files.1drv.com/y4m_Ux9WsWuTOnAwaszIqYGZsDdwOu9j8I_aBPwnLU_93hG_-_ZgtQdP-RYUlPbWhy9-7WP1ri15gJzKkyVigjLuziGLzjkdwWJpEdu_2cxbCIikHBHbksxyc2xz4iLaL1cNJ1iw7QS8Kfy2yNG37wVzbV9CA2zAWYYjqcq30tLq10UfpOH_5nOx8F01HDk5LovNbpLesRki8HAeIhB-xDo7Q?width=942&height=236&cropmode=none" width="450" title="output of ORF validation">
+  </p>
+
+### 3. Calculate Mean GC content
+
+#### 3.1 Download perl script to calculate GC content from the repository 'GC_content_in_sliding_window' of DamienFr
+
+`git clone https://github.com/DamienFr/GC_content_in_sliding_window.git`
+
+#### Run the perl script in a forloop for each ORF. Use a window size of 100 with a step size of 10.
+
 for i in `ls -1 $GITDUMP/CYP8B1/ORFs/*.fa`; do j=`echo $i|cut -f 7 -d '/'`; cp $i .; perl $GITDUMP/CYP8B1/scripts/gc_content.pl --fasta $j --window 100 --step 10; done|grep "the mean GC content"|awk '{print $8,$10}' > ../Mean_GC.txt
 
 #Perform QC on the alignments generated using Guidance and generate a QC report
