@@ -6,7 +6,7 @@
 
 <li><span style="text-decoration: underline;">ORFvalidator.pl:</span>  This perl script will read in the multi-fasta file to verify validity of the ORF. It will detect in-frame stop codons, DNA "ambiguity" characters other than N, lack of stop codon at the end of the sequence and lack of start codon at the beginning of start codon.</li>
 
-<li>gc_content.pl script was downloaded from the repository **GC_content_in_sliding_window** of **DamienFr**.
+<li>gc_content.pl script was downloaded from the repository "GC_content_in_sliding_window" of DamienFr.
 
 
 <li><span style="text-decoration: underline;">Alignment_QC.sh:</span>  Run multiple MSA programs through guidance with 100 bootstraps, Compare alignments to get AOS and MOS, Perform model testing on each alignment, Build phylogenies with 1000 bootstraps, reroot and sort trees before counting topologies </li>
