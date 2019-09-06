@@ -1,4 +1,4 @@
-# CYP8B1 - this is modified for this Organiaztion
+# Testing RELAX on CYP8B1 gene in Birds & Mammals 
 CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The code and data provided in this project are part of the below manuscript. The scripts and data are organised to ensure the integrity, credibility and replicability of the results reported. However, the goal of this repository is not to release a fully-automate pipeline and is beyond the scope of this manuscript. You can access/cite the publication with the following information "Shinde, S.S., Teekas, L., Sharma, S. et al. J Mol Evol (2019). https://doi.org/10.1007/s00239-019-09903-6". A pre-publication pre-print of the same is available here: https://www.biorxiv.org/content/10.1101/714188v1
 
 <h2 style="text-align: center;"><strong>Signatures of relaxed selection in the <em>CYP8B1</em> gene of birds and mammals</strong></h2>
