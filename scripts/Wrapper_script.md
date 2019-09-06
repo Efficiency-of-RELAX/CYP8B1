@@ -4,7 +4,9 @@
 ### 2. Validate ORFs 
 
 2.1 Install dos2unix to remove any dos special characters
+
 `sudo apt-get install dos2unix`
+
 2.2 Validate all ORFs using a forloop
 
 ```
