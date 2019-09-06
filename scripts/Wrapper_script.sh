@@ -1,6 +1,7 @@
-GITDUMP="/home/ceglab"
+#1. Download ORFs from CYP8B1 repository of ceglab
+git clone https://github.com/ceglab/CYP8B1.git
 
-#Obtain all the manually curated ORF's of the CYP8B1 gene from NCBI and Ensembl.
+#2. Validate ORFs 
 for i in `ls -1 $GITDUMP/CYP8B1/ORFs/*.fa`
 do
 echo -ne "$i\t"
