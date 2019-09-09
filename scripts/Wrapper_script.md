@@ -14,10 +14,11 @@
 
 #### 2.2 Validate all ORFs using a perlscript via a forloop
 
-- Validate the ORFs before running RELAX. <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>"It will detect :"</summary>
+<summary>"Validate the ORFs before running RELAX. :"</summary>
  
+ - It will detect :
    - In-frame stop codons.
    - DNA "ambiguity" characters other than N.
    - lack of stop codon at the end of the sequence.
