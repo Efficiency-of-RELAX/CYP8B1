@@ -9,7 +9,7 @@
 #### 2.1 Install `dos2unix` to remove any dos special characters
 
 ```sh
-sudo apt-get install dos2unix
+    sudo apt-get install dos2unix
 ```
 
 #### 2.2 Validate all ORFs using a perlscript via a forloop
