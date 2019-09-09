@@ -14,9 +14,7 @@
 
 #### 2.2 Validate all ORFs using a perlscript via a forloop
 
-- Validate the ORFs before running RELAX. It will detect :
-
-<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+- Validate the ORFs before running RELAX. <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
 <summary>"It will detect :"</summary>
  
