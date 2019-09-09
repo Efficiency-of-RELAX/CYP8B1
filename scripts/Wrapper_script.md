@@ -1,6 +1,6 @@
 ### 1. Download ORFs from CYP8B1 repository of ceglab
 
-```sh
+```
      git clone https://github.com/ceglab/CYP8B1.git
 ```
 
