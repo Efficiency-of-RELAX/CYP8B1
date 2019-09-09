@@ -1,10 +1,10 @@
-### 1. Download ORFs from CYP8B1 repository of ceglab
+## 1. Download ORFs from CYP8B1 repository of ceglab 
 
 ```
        git clone https://github.com/ceglab/CYP8B1.git
 ```
 
-### 2. Validate ORFs 
+## 2. Validate ORFs 
 
 #### 2.1 Install `dos2unix` to remove any dos special characters
 
