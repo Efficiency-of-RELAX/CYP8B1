@@ -1,5 +1,5 @@
 ### 1. Download ORFs from CYP8B1 repository of ceglab
-`git clone https://github.com/ceglab/CYP8B1.git`
+     git clone https://github.com/ceglab/CYP8B1.git
 
 ### 2. Validate ORFs 
 
@@ -7,7 +7,7 @@
 
 `sudo apt-get install dos2unix`
 
-#### 2.2 Validate all ORFs using a forloop
+#### 2.2 Validate all ORFs using a perlscript via a forloop
 
 Validate the ORFs before running RELAX. It will detect :
 - In-frame stop codons.
