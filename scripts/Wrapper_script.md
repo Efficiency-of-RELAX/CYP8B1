@@ -1,7 +1,7 @@
 ### 1. Download ORFs from CYP8B1 repository of ceglab
 
 ```
-     git clone https://github.com/ceglab/CYP8B1.git
+       git clone https://github.com/ceglab/CYP8B1.git
 ```
 
 ### 2. Validate ORFs 
@@ -9,27 +9,28 @@
 #### 2.1 Install `dos2unix` to remove any dos special characters
 
 ```sh
-    sudo apt-get install dos2unix
+       sudo apt-get install dos2unix
 ```
 
 #### 2.2 Validate all ORFs using a perlscript via a forloop
 
-Validate the ORFs before running RELAX. It will detect :
-- In-frame stop codons.
-- DNA "ambiguity" characters other than N.
-- lack of stop codon at the end of the sequence.
-- lack of start codon at the beginning of start codon.
+- Validate the ORFs before running RELAX. It will detect :
+   - In-frame stop codons.
+   - DNA "ambiguity" characters other than N.
+   - lack of stop codon at the end of the sequence.
+   - lack of start codon at the beginning of start codon.
+- Precaution : Don't try to manually update `perl`. 
 
 ```
-cd /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1
-for i in `ls -1 ORFs/*fa`
-do
-echo -ne "$i\t"
-dos2unix $i
-perl scripts/ORFvalidator.pl $i
-done
+      cd /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1
+      for i in `ls -1 ORFs/*fa`
+      do
+      echo -ne "$i\t"
+      dos2unix $i
+      perl scripts/ORFvalidator.pl $i
+      done
 ```
-Result looks like this :
+- Result looks like this :
 
 <p align="center">
   <img src="https://lkuvng.dm.files.1drv.com/y4m_Ux9WsWuTOnAwaszIqYGZsDdwOu9j8I_aBPwnLU_93hG_-_ZgtQdP-RYUlPbWhy9-7WP1ri15gJzKkyVigjLuziGLzjkdwWJpEdu_2cxbCIikHBHbksxyc2xz4iLaL1cNJ1iw7QS8Kfy2yNG37wVzbV9CA2zAWYYjqcq30tLq10UfpOH_5nOx8F01HDk5LovNbpLesRki8HAeIhB-xDo7Q?width=942&height=236&cropmode=none" width="680" title="output of ORF validation">
