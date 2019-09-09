@@ -16,7 +16,7 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>Validate the ORFs before running RELAX.</summary>
+<summary>Validate the ORFs before running RELAX - check how?.</summary>
  
  - It will detect :
    - In-frame stop codons.
