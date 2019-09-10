@@ -76,7 +76,7 @@ for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100]
 ```
 - The result will look like this : GC content & deviation for each sequences.
 
-<p align="right">
+<p align="centre">
   <img src="https://mkuvng.dm.files.1drv.com/y4mTb74bdKoETFB7Rw5hDMD_PaHeyKF3_mqN60LtfbsBVgkEAzT3qSC3bd5mBu6QJKo8fMmVt4v4LENGCGA-wuYObM9cktsLC1HUVJHLXBg95Pswn7HstJXZqZPeXGOK_0ag453YHXT698RjdeCBmtJlI2365a_oeofviTCXBOaEJmiSEVWZd1-aALKNq9Y1-jpfVhflAZXrH2016xhRuiEdA?width=553&height=337&cropmode=none" width="380" title="output of ORF validation">
   </p>
 
