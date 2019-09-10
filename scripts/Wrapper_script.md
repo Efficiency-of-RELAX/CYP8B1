@@ -28,8 +28,6 @@
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 
-- Precaution : Don't try to manually update `perl`. 
-
 ```
       cd /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1
       for i in `ls -1 ORFs/*fa`
@@ -39,6 +37,19 @@
       perl scripts/ORFvalidator.pl $i
       done
 ```
+- Precaution : Don't try to manually update `perl`
+  - If you happened to install manually, both version of perl may exist together.
+  - Then if you try running perl scripts it may not be able to find modules.
+  - Since the path is changed, it can't find the modules.
+  - Solution : 
+    - Install the missing module forcefully.
+     ```          cpanm --sudo --force Bio::SeqIO
+     ```
+    - If necessary, change the Shebang line.
+    ```
+      #!/usr/bin/env perl           to        #!/usr/bin/perl
+      ```
+
 - Result looks like this : All sequences from each folder are converted & validated.
 
 <p align="center">
