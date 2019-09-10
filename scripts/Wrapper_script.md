@@ -37,18 +37,26 @@
       perl scripts/ORFvalidator.pl $i
       done
 ```
-- Precaution : Don't try to manually update `perl`
-  - If you happened to install manually, both version of perl may exist together.
-  - Then if you try running perl scripts it may not be able to find modules.
-  - Since the path is changed, it can't find the modules.
+
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+<details>
+<summary>Precaution : Don't try to manually upgrade `perl`:point_right: click to expand?.</summary>
+
+  - If you upgrade manually- both version of perl will exist together.
+  - Then if you try running perl scripts- it may not be able to find the required modules.
+  - Since the path for the modules is changed, it can't find the modules.
   - Solution : 
     - Install the missing module forcefully.
-     ```          cpanm --sudo --force Bio::SeqIO
+     ``` 
+             cpanm --sudo --force Bio::SeqIO
      ```
     - If necessary, change the Shebang line.
     ```
       #!/usr/bin/env perl           to        #!/usr/bin/perl
       ```
+      
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 - Result looks like this : All sequences from each folder are converted & validated.
 
