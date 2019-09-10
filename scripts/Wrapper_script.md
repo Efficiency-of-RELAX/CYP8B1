@@ -71,7 +71,14 @@
 
 #### Run the perl script in a forloop for each ORF. Use a window size of 100 with a step size of 10.
 
-for i in `ls -1 $GITDUMP/CYP8B1/ORFs/*.fa`; do j=`echo $i|cut -f 7 -d '/'`; cp $i .; perl $GITDUMP/CYP8B1/scripts/gc_content.pl --fasta $j --window 100 --step 10; done|grep "the mean GC content"|awk '{print $8,$10}' > ../Mean_GC.txt
+```
+for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100] [-step 10]; done
+```
+- The result will look like this : GC content & deviation for each sequences.
+
+<p align="right">
+  <img src="https://mkuvng.dm.files.1drv.com/y4mTb74bdKoETFB7Rw5hDMD_PaHeyKF3_mqN60LtfbsBVgkEAzT3qSC3bd5mBu6QJKo8fMmVt4v4LENGCGA-wuYObM9cktsLC1HUVJHLXBg95Pswn7HstJXZqZPeXGOK_0ag453YHXT698RjdeCBmtJlI2365a_oeofviTCXBOaEJmiSEVWZd1-aALKNq9Y1-jpfVhflAZXrH2016xhRuiEdA?width=553&height=337&cropmode=none" width="680" title="output of ORF validation">
+  </p>
 
 #Perform QC on the alignments generated using Guidance and generate a QC report
 for i in `ls -1 $GITDUMP/CYP8B1/ORFs/*.fa`
