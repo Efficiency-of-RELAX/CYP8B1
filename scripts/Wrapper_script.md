@@ -27,7 +27,6 @@
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-
 ```
       cd /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1
       for i in `ls -1 ORFs/*fa`
@@ -46,14 +45,13 @@
   - Then if you try running perl scripts- it may not be able to find the required modules.
   - Since the path for the modules is changed, it can't find the modules.
   - Solution : 
-    - Install the missing module forcefully.
-   
-             `cpanm --sudo --force Bio::SeqIO`
+    - Install the missing module forcefully.  
+     `cpanm --sudo --force Bio::SeqIO`
     
     - If necessary, change the Shebang line.
-
+<pre>
       `#!/usr/bin/env perl`           to        `#!/usr/bin/perl`
-     
+</pre>
       
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
