@@ -16,7 +16,7 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>Validate the ORFs before running RELAX - :point_right: click to expand?.</summary>
+<summary>Validate the ORFs before running RELAX - :point_right: HOW?</summary>
  
  - It will detect :
    - In-frame stop codons.
@@ -40,7 +40,7 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>Precaution : Don't try to manually upgrade `perl`:point_right: click to expand?.</summary>
+<summary>Precaution : Don't try to manually upgrade `perl` - :point_right: wHY?</summary>
 
   - If you upgrade manually- both version of perl will exist together.
   - Then if you try running perl scripts- it may not be able to find the required modules.
