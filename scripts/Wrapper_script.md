@@ -16,9 +16,9 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>Validate the ORFs before running RELAX - :point_right: HOW?</summary>
+<summary>Validate the ORFs before running RELAX - :point_right: Why?</summary>
  
- - It will detect :
+ - To detect :
    - In-frame stop codons.
    - DNA "ambiguity" characters other than N.
    - lack of stop codon at the end of the sequence.
@@ -40,7 +40,7 @@
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>Precaution : Don't try to manually upgrade `perl` - :point_right: wHY?</summary>
+<summary>Precaution : Don't try to manually upgrade `perl` - :point_right: Why?</summary>
 
   - If you upgrade manually- both version of perl will exist together.
   - Then if you try running perl scripts- it may not be able to find the required modules.
