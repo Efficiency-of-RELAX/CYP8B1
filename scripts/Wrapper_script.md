@@ -47,13 +47,13 @@
   - Since the path for the modules is changed, it can't find the modules.
   - Solution : 
     - Install the missing module forcefully.
-     ``` 
-             cpanm --sudo --force Bio::SeqIO
-     ```
+   
+             `cpanm --sudo --force Bio::SeqIO`
+    
     - If necessary, change the Shebang line.
-    ```
-      #!/usr/bin/env perl           to        #!/usr/bin/perl
-      ```
+
+      `#!/usr/bin/env perl`           to        `#!/usr/bin/perl`
+     
       
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
