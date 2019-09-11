@@ -65,7 +65,7 @@
 
 ## 3. Calculate Mean GC content
 
-#### 3.1 Download perl script to calculate GC content from the repository 'GC_content_in_sliding_window' of DamienFr
+#### 3.1 Download perl script to calculate GC content from the repository of DamienFr.
 
 `git clone https://github.com/DamienFr/GC_content_in_sliding_window.git`
 
