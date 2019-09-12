@@ -68,13 +68,13 @@
 #### 3.1 Download perl script to calculate GC content from the repository of DamienFr.
 
 ```
-git clone https://github.com/DamienFr/GC_content_in_sliding_window.git
+       git clone https://github.com/DamienFr/GC_content_in_sliding_window.git
 ```
 
 #### 3.2 Run the perl script in a forloop for each ORF. Use a window size of 100 with a step size of 10.
 
 ```
-for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100] [-step 10]; done
+       for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100] [-step 10]; done
 ```
 - The result will look like this : GC content & deviation for each sequences.
 
