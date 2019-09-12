@@ -100,5 +100,10 @@
     ./prank/bin/prank
     cp -R /home/$USER/programs/prank/bin/* ~/bin/
 ```
-- MUSCLE v.3.8.31
+- [MUSCLE](https://www.drive5.com/muscle/) v.3.8.31
 ```
+    wget https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz
+    tar xvzf muscle3.8.31_i86linux64.tar.gz
+    ```
+    
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/)
