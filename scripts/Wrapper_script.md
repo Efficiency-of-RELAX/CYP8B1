@@ -77,7 +77,8 @@ for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100]
 - The result will look like this : GC content & deviation for each sequences.
 
 <p align="center">
-  <img src="https://mkuvng.dm.files.1drv.com/y4mTb74bdKoETFB7Rw5hDMD_PaHeyKF3_mqN60LtfbsBVgkEAzT3qSC3bd5mBu6QJKo8fMmVt4v4LENGCGA-wuYObM9cktsLC1HUVJHLXBg95Pswn7HstJXZqZPeXGOK_0ag453YHXT698RjdeCBmtJlI2365a_oeofviTCXBOaEJmiSEVWZd1-aALKNq9Y1-jpfVhflAZXrH2016xhRuiEdA?width=553&height=337&cropmode=none" width="380" title="output of ORF validation">
+  <img src="https://vqbgra.dm.files.1drv.com/y4m_d5SOYTiqc2q9mOTUb2ctH0ggNP206BTDIzbThQsbAvRW9_oc4LCCVe77zm2cw-WNBMz2ES5dVpdhLODeGaMRRxdsZ09HQAf6KL4Y3eHNfXkNPK6-pHODZRxKX-URuUhkRYL1h9hIdITt_WirWW-C2hFjnI0-Cw2rSgm5VoNAyWPKZdjyC1XCpxyjZxxNs30VHg2Zq_7d613p75yGsiSPw?width=553&height=168&cropmode=none">
+       <IMG SRC="https://vabgra.dm.files.1drv.com/y4mk8QwE6WwSwbhttuc5u1JsA-GvpBa3J2ikPDZChnNIvmzH9lHmY03kJ3l49PEFPmbHC4lQ_H8EKoxr6C2Kj_-V5EmutwBftNrUSDN0zNxqqHkjPW8-zo05zFMMUa8pQ1IePUjVAzlF5yzGu6SdXqUUPMkbzBnrx7yk7DRmWRYgxLISKykXUrydHeVn8qD0uOoTKhFI8oxIXCeV-GnUK0ebA?width=553&height=168&cropmode=none">
   </p>
 
 #### 3.3 Plot the distribution of GC content in R: using the rscript 'gc_content.r'
