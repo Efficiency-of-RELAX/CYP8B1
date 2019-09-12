@@ -83,7 +83,7 @@ for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100]
 #### 3.3 Plot the distribution of GC content in R.
 
 <p align="center">
-  <img src="https://tazfoa.dm.files.1drv.com/y4ms1IS8Ux4Nj1H9DXBuaWEe44h_GpVdEgIQvC9EPRo6U80JmX2z-IpJbCKmf7lRT7pRrTExXsF4HoBOwan_Z2ZiFTxKWTUVD5fH5Zbf1EERqBAmddvC4MO_JImboTxFQ-yIo6E51TDNPlBvIkTdGM31JPS4AvX2qLVZetMXsN-LkE_1g06aa0PQr2xLIyzbSFfVjwZTVixoyoSl2hzfsle6g?width=1121&height=557&cropmode=none" width="700" title="output of ORF validation">
+  <img src="https://tazfoa.dm.files.1drv.com/y4ms1IS8Ux4Nj1H9DXBuaWEe44h_GpVdEgIQvC9EPRo6U80JmX2z-IpJbCKmf7lRT7pRrTExXsF4HoBOwan_Z2ZiFTxKWTUVD5fH5Zbf1EERqBAmddvC4MO_JImboTxFQ-yIo6E51TDNPlBvIkTdGM31JPS4AvX2qLVZetMXsN-LkE_1g06aa0PQr2xLIyzbSFfVjwZTVixoyoSl2hzfsle6g?width=1121&height=557&cropmode=none" width="800" title="output of ORF validation">
   </p>
 
 #Perform QC on the alignments generated using Guidance and generate a QC report
