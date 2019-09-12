@@ -80,7 +80,7 @@ for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100]
   <img src="https://mkuvng.dm.files.1drv.com/y4mTb74bdKoETFB7Rw5hDMD_PaHeyKF3_mqN60LtfbsBVgkEAzT3qSC3bd5mBu6QJKo8fMmVt4v4LENGCGA-wuYObM9cktsLC1HUVJHLXBg95Pswn7HstJXZqZPeXGOK_0ag453YHXT698RjdeCBmtJlI2365a_oeofviTCXBOaEJmiSEVWZd1-aALKNq9Y1-jpfVhflAZXrH2016xhRuiEdA?width=553&height=337&cropmode=none" width="380" title="output of ORF validation">
   </p>
 
-#### 3.3 Plot the distribution of GC content in R.
+#### 3.3 Plot the distribution of GC content in R: using the rscript 'gc_content.r'
 
 <p align="center">
   <img src="https://tazfoa.dm.files.1drv.com/y4ms1IS8Ux4Nj1H9DXBuaWEe44h_GpVdEgIQvC9EPRo6U80JmX2z-IpJbCKmf7lRT7pRrTExXsF4HoBOwan_Z2ZiFTxKWTUVD5fH5Zbf1EERqBAmddvC4MO_JImboTxFQ-yIo6E51TDNPlBvIkTdGM31JPS4AvX2qLVZetMXsN-LkE_1g06aa0PQr2xLIyzbSFfVjwZTVixoyoSl2hzfsle6g?width=1121&height=557&cropmode=none" width="800" title="output of ORF validation">
