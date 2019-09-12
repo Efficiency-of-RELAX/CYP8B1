@@ -67,7 +67,8 @@
 
 #### 3.1 Download perl script to calculate GC content from the repository of DamienFr.
 
-`git clone https://github.com/DamienFr/GC_content_in_sliding_window.git`
+```git clone https://github.com/DamienFr/GC_content_in_sliding_window.git
+```
 
 #### 3.2 Run the perl script in a forloop for each ORF. Use a window size of 100 with a step size of 10.
 
