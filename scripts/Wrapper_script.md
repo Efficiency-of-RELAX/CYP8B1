@@ -89,19 +89,16 @@
   <img src="https://tazfoa.dm.files.1drv.com/y4ms1IS8Ux4Nj1H9DXBuaWEe44h_GpVdEgIQvC9EPRo6U80JmX2z-IpJbCKmf7lRT7pRrTExXsF4HoBOwan_Z2ZiFTxKWTUVD5fH5Zbf1EERqBAmddvC4MO_JImboTxFQ-yIo6E51TDNPlBvIkTdGM31JPS4AvX2qLVZetMXsN-LkE_1g06aa0PQr2xLIyzbSFfVjwZTVixoyoSl2hzfsle6g?width=1121&height=557&cropmode=none" width="800" title="output of ORF validation">
   </p>
 
-#Perform QC on the alignments generated using Guidance and generate a QC report
-for i in `ls -1 $GITDUMP/CYP8B1/ORFs/*.fa`
-do
-j=`echo $i|cut -f 6 -d '/'|cut -f 1 -d '.'`
-k=`echo $i|cut -f 6 -d '/'`
-mkdir $j
-cd $j
-cp $i .
-$GITDUMP/CYP8B1/scripts/Alignment_QC.sh $k
-cp "$k"_MAFFT.aln $GITDUMP/CYP8B1/MSAs
-cp "$k"_PRANK.aln $GITDUMP/CYP8B1/MSAs
-cp "$k"_MUSCLE.aln $GITDUMP/CYP8B1/MSAs
-cp "$k"_CLUSTALW.aln $GITDUMP/CYP8B1/MSAs
-cd ..
-done
+## Install Multiple Sequence Alignmnents
 
+- [PRANK](http://wasabiapp.org/software/prank/prank_installation/) v.140603
+```
+    mkdir ~/programs
+    cd ~/programs
+    wget http://wasabiapp.org/download/prank/previous_version/prank.linux64.140603.tgz
+    tar prank.linux64.140603.tgz
+    ./prank/bin/prank
+    cp -R /home/$USER/programs/prank/bin/* ~/bin/
+```
+- MUSCLE v.3.8.31
+```
