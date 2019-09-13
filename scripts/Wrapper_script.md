@@ -89,7 +89,12 @@
   <img src="https://tazfoa.dm.files.1drv.com/y4ms1IS8Ux4Nj1H9DXBuaWEe44h_GpVdEgIQvC9EPRo6U80JmX2z-IpJbCKmf7lRT7pRrTExXsF4HoBOwan_Z2ZiFTxKWTUVD5fH5Zbf1EERqBAmddvC4MO_JImboTxFQ-yIo6E51TDNPlBvIkTdGM31JPS4AvX2qLVZetMXsN-LkE_1g06aa0PQr2xLIyzbSFfVjwZTVixoyoSl2hzfsle6g?width=1121&height=557&cropmode=none" width="800" title="output of ORF validation">
   </p>
 
-## Install Multiple Sequence Alignmnents
+## Install bedtools & Multiple Sequence Alignmnents
+
+- [bedtools](https://bedtools.readthedocs.io/en/latest/)  v2.26.0
+```sudo apt-get install bedtools
+   bedtools
+   ```
 
 - [PRANK](http://wasabiapp.org/software/prank/prank_installation/) v.140603
 ```
