@@ -108,8 +108,8 @@
     
 - [MAFFT](https://mafft.cbrc.jp/alignment/software/) v.v6.864b
 ```
-wget https://mafft.cbrc.jp/alignment/software/mafft_7.450-1_amd64.deb
-sudo bash
+wget https://mafft.cbrc.jp/alignment/software/mafft-7.450-linux.tgz
+tar -xvzf mafft-7.450-linux.tgz
 ```
 - 
 
