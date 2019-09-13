@@ -98,9 +98,10 @@
 
 - [bedtools](https://bedtools.readthedocs.io/en/latest/)  v2.26.0
 
-```sudo apt-get install bedtools
+```
+   sudo apt-get install bedtools
    bedtools
-   ```
+```
 
 - [PRANK](http://wasabiapp.org/software/prank/prank_installation/) v.140603
 ```
