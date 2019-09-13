@@ -99,17 +99,29 @@
     tar prank.linux64.140603.tgz
     ./prank/bin/prank
     cp -R /home/$USER/programs/prank/bin/* ~/bin/
+    prank
 ```
-- [MUSCLE](https://www.drive5.com/muscle/) v.3.8.31
+- [MUSCLE](https://www.drive5.com/muscle/) v3.8.31
 ```
     wget https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz
     tar xvzf muscle3.8.31_i86linux64.tar.gz
+    sudo cp muscle3.8.31_i86linux64 /usr/bin/muscle
+    muscle
 ```
     
-- [MAFFT](https://mafft.cbrc.jp/alignment/software/) v.v6.864b
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/) v7.450
 ```
-wget https://mafft.cbrc.jp/alignment/software/mafft-7.450-linux.tgz
-tar -xvzf mafft-7.450-linux.tgz
+    wget https://mafft.cbrc.jp/alignment/software/mafft-7.450-linux.tgz
+    tar -xvzf mafft-7.450-linux.tgz 
+    sudo cp mafft /usr/bin/
+    sudo chmod 777 /usr/bin/mafft
+    mafft
 ```
-- 
+- [CLUSTALW](http://www.clustal.org/) v2.0.12
+```
+    wget http://www.clustal.org/download/current/clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
+    tar xvzf clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
+    sudo cp clustalw2 /usr/bin/
+    clustalw2
+```
 
