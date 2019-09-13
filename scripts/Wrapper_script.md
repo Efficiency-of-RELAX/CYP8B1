@@ -104,6 +104,12 @@
 ```
     wget https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz
     tar xvzf muscle3.8.31_i86linux64.tar.gz
-    ```
+```
     
-- [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/) v.v6.864b
+```
+wget https://mafft.cbrc.jp/alignment/software/mafft_7.450-1_amd64.deb
+sudo bash
+```
+- 
+
