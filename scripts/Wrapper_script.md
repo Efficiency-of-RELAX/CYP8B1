@@ -17,7 +17,9 @@
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
 <summary>Validate the ORFs before running RELAX - :point_right: Why?</summary>
+       
  --- 
+ 
  - To detect :
    - In-frame stop codons.
    - DNA "ambiguity" characters other than N.
@@ -40,7 +42,9 @@
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
 <summary>Precaution : Don't try to manually upgrade `perl` - :point_right: Why?</summary>
+       
 ---
+
   - If you upgrade manually- both version of perl will exist together.
   - To execute perl scripts 'perl modules' are necessary.
   - The modules of each perl version is located in the 'version specific' folders.
