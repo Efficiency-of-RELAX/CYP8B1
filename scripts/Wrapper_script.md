@@ -42,8 +42,10 @@
 <summary>Precaution : Don't try to manually upgrade `perl` - :point_right: Why?</summary>
 
   - If you upgrade manually- both version of perl will exist together.
-  - Then if you try running perl scripts- it may not be able to find the required modules.
-  - Since the path for the modules is changed, it can't find the modules.
+  - To execute perl scripts 'perl modules' are necessary.
+  - The modules of each perl version is located in the 'version specific' folders.
+  - Although the perl version has changed, it still look for the modules in the same 'old' path for 'new' version. 
+  - Since it can't find the modules for new version it will throw an error.
   - Solution : 
     - Install the missing module forcefully. 
     
