@@ -103,7 +103,7 @@
    bedtools
 ```
 
-- [PRANK](http://wasabiapp.org/software/prank/prank_installation/) v.140603
+- [PRANK](http://wasabiapp.org/software/prank/prank_installation/)  v.140603
 ```
     mkdir ~/programs
     cd ~/programs
@@ -113,7 +113,7 @@
     cp -R /home/$USER/programs/prank/bin/* ~/bin/
     prank
 ```
-- [MUSCLE](https://www.drive5.com/muscle/) v3.8.31
+- [MUSCLE](https://www.drive5.com/muscle/)  v3.8.31
 ```
     wget https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz
     tar xvzf muscle3.8.31_i86linux64.tar.gz
@@ -121,7 +121,7 @@
     muscle
 ```
     
-- [MAFFT](https://mafft.cbrc.jp/alignment/software/) v7.450
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/)  v7.450
 ```
     wget https://mafft.cbrc.jp/alignment/software/mafft-7.450-linux.tgz
     tar -xvzf mafft-7.450-linux.tgz 
@@ -129,11 +129,49 @@
     sudo chmod 777 /usr/bin/mafft
     mafft
 ```
-- [CLUSTALW](http://www.clustal.org/) v2.0.12
+- [CLUSTALW](http://www.clustal.org/)  v2.0.12
 ```
     wget http://www.clustal.org/download/current/clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
     tar xvzf clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
     sudo cp clustalw2 /usr/bin/
     clustalw2
 ```
+-[Guidance2](http://wasabiapp.org/software/pagan/)  v2.02
 
+- Dependencies :
+  - MAFFT
+  - PRANK
+  - CLUSTALW
+  - MUSCLE
+  - PAGAN
+```
+wget http://guidance.tau.ac.il/ver2/guidance.v2.02.tar.gz
+tar -xzf guidance.v2.02.tar.gz
+make
+cpanm --sudo --force Bio::Perl.pm
+g=/home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1/guidance.v2.02/www/Guidance/guidance.pl
+perl $g
+```
+```
+mkdir ~/programs
+cd ~/programs
+wget http://wasabiapp.org/download/pagan/pagan2.linux64.20190829.tgz
+tar -xvzf pagan2.linux64.20190829.tgz
+./pagan/bin/pagan
+sudo cp -R /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
+```
+- Pagan insatallation come with :
+  - bppancestor  
+  - bppdist      
+  - bppphysamp   
+  - exonerate    
+  - fasttree     
+  - mafft        
+  - pagan        
+  - pagan2       
+  - raxml
+- Here we copying only pagan to usr/bin/.
+`sudo chmod 777 /usr/bin/pagan`
+
+
+```
