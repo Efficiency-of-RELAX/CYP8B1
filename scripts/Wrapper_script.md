@@ -138,7 +138,7 @@
 ```
 - [Guidance2](http://wasabiapp.org/software/pagan/)  v2.02
   
-  <img align="right" width="200" height="300" src="ttps://wqz02g.dm.files.1drv.com/y4mOWjtjpftRmWAcO6MkmJfMd9KIQEyHuicJUYvnkxHaLbkNDvGxQ3gC3nwCfLzQ6IMwAxnkQVR8CN3OkB22Xc0IILq6vryGk7KohHzVe3_S7LPeAz5bjgzMZSAz0waSmGBw1phavXrNcZt_3P-Zu9n9vA1Hyv-PfGpBIV91WtBB2w_lU7cFOHK3bKX3wKZGs7yT3Yusus9bUOyTWdNFdpUjA?width=868&height=436&cropmode=none">
+  <img align="right" width="500" src="ttps://wqz02g.dm.files.1drv.com/y4mOWjtjpftRmWAcO6MkmJfMd9KIQEyHuicJUYvnkxHaLbkNDvGxQ3gC3nwCfLzQ6IMwAxnkQVR8CN3OkB22Xc0IILq6vryGk7KohHzVe3_S7LPeAz5bjgzMZSAz0waSmGBw1phavXrNcZt_3P-Zu9n9vA1Hyv-PfGpBIV91WtBB2w_lU7cFOHK3bKX3wKZGs7yT3Yusus9bUOyTWdNFdpUjA?width=868&height=436&cropmode=none">
 
 - Dependencies :
   - [x] MAFFT
