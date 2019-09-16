@@ -150,7 +150,6 @@
       - [X] BioPerl
       - [x] Ruby
 
-
    - First 4 MSAs were already installed except 'PAGAN' - so intall PAGAN.
   
   ```
@@ -164,6 +163,7 @@
    <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
    <details>
    <summary> Pagan insatallation come with : - :point_right: all these tools</summary>
+       
   - [ ] bppancestor  
   - [ ] bppdist      
   - [ ] bppphysamp   
