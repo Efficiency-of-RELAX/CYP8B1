@@ -156,9 +156,9 @@
     tar -xvzf pagan2.linux64.20190829.tgz
     ./pagan/bin/pagan
   ```
-   <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-   <details>
-   <summary>Pagan insatallation come with : - :point_right: all these tools</summary>
+     <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+     <details>
+     <summary> Pagan insatallation come with : - :point_right: all these tools</summary>
 
      - bppancestor  
      - bppdist      
@@ -170,49 +170,49 @@
      - pagan2       
      - raxml
   
-   </details>
-   <!-- AUTO-GENERATED-CONTENT:END -->
+     </details>
+     <!-- AUTO-GENERATED-CONTENT:END -->
 
    - Since we don't need other tools - here we copy only pagan to usr/bin/.
 
 ```
-    sudo cp -R CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
-    sudo chmod 777 /usr/bin/pagan
+        sudo cp -R CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
+        sudo chmod 777 /usr/bin/pagan
 ```
    -  Now install guidance.
 ```
-    wget http://guidance.tau.ac.il/ver2/guidance.v2.02.tar.gz
-    tar -xzf guidance.v2.02.tar.gz
-    make
-    cpanm --sudo --force Bio::Perl.pm
-    g=/home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1/guidance.v2.02/www/Guidance/guidance.pl
-    perl $g
+        wget http://guidance.tau.ac.il/ver2/guidance.v2.02.tar.gz
+        tar -xzf guidance.v2.02.tar.gz
+        make
+        cpanm --sudo --force Bio::Perl.pm
+        g=/home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1/guidance.v2.02/www/Guidance/guidance.pl
+        perl $g
 ```
 - Small packages
 
-<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-<details>
-<summary>Bioawk : - :point_right: Install</summary>
+   <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+   <details>
+   <summary>Bioawk : - :point_right: Install</summary>
 
 ```
-    git clone git://github.com/lh3/bioawk.git
-    cd bioawk/
+        git clone git://github.com/lh3/bioawk.git
+        cd bioawk/
  ````  
- - If you don't have 'yacc'/'bison' (the GNU equivalent) - the 'make' command won't work.
- - Install bison before :
-   - type `sudo synbaptic`.
-   - Search 'yacc'.
-   - select 'bison'.
-   - Click 'Mark All Upgrades'.
- - Now continue with 'make'.
+   - If you don't have 'yacc'/'bison' (the GNU equivalent) - the 'make' command won't work.
+   - Install bison before :
+      - type `sudo synbaptic`.
+      - Search 'yacc'.
+      - select 'bison'.
+      - Click 'Mark All Upgrades'.
+   - Now continue with 'make'.
  
 ``` 
-    make
-    sudo cp bioawk /usr/bin/
-    bioawk
+        make
+        sudo cp bioawk /usr/bin/
+        bioawk
  ```
      
-</details>
-<!-- AUTO-GENERATED-CONTENT:END -->
+   </details>
+   <!-- AUTO-GENERATED-CONTENT:END -->
     
 ## 5. 
