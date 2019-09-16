@@ -193,6 +193,7 @@
      <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
      <details>
      <summary>Bioawk : - :point_right: Install</summary>
+       
      - Download bioawk from github.
 
     ```
