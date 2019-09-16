@@ -193,6 +193,7 @@
      <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
      <details>
      <summary>Bioawk : - :point_right: Install</summary>
+     - Download bioawk from github.
 
     ```
          git clone git://github.com/lh3/bioawk.git
@@ -207,9 +208,9 @@
      - Now continue with 'make'.
  
       ``` 
-        make
-        sudo cp bioawk /usr/bin/
-        bioawk
+           make
+           sudo cp bioawk /usr/bin/
+           bioawk
       ```
      
      </details>
