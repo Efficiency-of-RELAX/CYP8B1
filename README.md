@@ -5,7 +5,7 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
 
-<div style="float: right; margin-left: 30px;"><img title="Pipeline to run RELAX" style="float: right;margin-left: 30px;" src="https://github.com/Efficiency-of-RELAX/CYP8B1/blob/master/Workflow_CYP8B1.jpg" align=right height=400/></div>
+<div style="float: right; margin-left: 30px;"><img title="Pipeline to run RELAX" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=400/></div>
 &nbsp;
 <div style="float: right; margin-left: 30px;"><img title="Pipeline to run RELAX" style="float: right;margin-left: 30px;" src="https://www.researchgate.net/profile/Andrei_Lukashkin/publication/323780429/figure/fig2/AS:614316390744064@1523475849079/Tree-of-life-of-amniotes-that-includes-reptiles-birds-and-mammals-All-these-classes-of.png" align=left height=350/></div>
 
