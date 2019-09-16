@@ -140,17 +140,17 @@
 
 <img align="right" width="400" height="200" src="https://wqz02g.dm.files.1drv.com/y4mOWjtjpftRmWAcO6MkmJfMd9KIQEyHuicJUYvnkxHaLbkNDvGxQ3gC3nwCfLzQ6IMwAxnkQVR8CN3OkB22Xc0IILq6vryGk7KohHzVe3_S7LPeAz5bjgzMZSAz0waSmGBw1phavXrNcZt_3P-Zu9n9vA1Hyv-PfGpBIV91WtBB2w_lU7cFOHK3bKX3wKZGs7yT3Yusus9bUOyTWdNFdpUjA?width=868&height=436&cropmode=none">
 
-  - Dependencies :
-    - [x] MAFFT
-    - [x] PRANK
-    - [x] CLUSTALW
-    - [x] MUSCLE
-    - [ ] PAGAN
-    - [x] Perl
-    - [X] BioPerl
-    - [x] Ruby
+   - Dependencies :
+      - [x] MAFFT
+      - [x] PRANK
+      - [x] CLUSTALW
+      - [x] MUSCLE
+      - [ ] PAGAN
+      - [x] Perl
+      - [X] BioPerl
+      - [x] Ruby
 
-  - First 4 MSAs were already installed except 'PAGAN' - so intall PAGAN.
+   - First 4 MSAs were already installed except 'PAGAN' - so intall PAGAN.
   
   ```
      mkdir ~/programs
@@ -160,7 +160,7 @@
      ./pagan/bin/pagan
   ```
   
-      <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+   <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
    <details>
    <summary> Pagan insatallation come with : - :point_right: all these tools</summary>
 
@@ -177,13 +177,13 @@
      </details>
      <!-- AUTO-GENERATED-CONTENT:END -->
 
-  - Since we don't need other tools - here we copy only pagan to usr/bin/.
+   - Since we don't need other tools - here we copy only pagan to usr/bin/.
  
   ```
         sudo cp -R CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
         sudo chmod 777 /usr/bin/pagan
   ```
-  -  Now install guidance.
+   -  Now install guidance.
   ```
         wget http://guidance.tau.ac.il/ver2/guidance.v2.02.tar.gz
         tar -xzf guidance.v2.02.tar.gz
