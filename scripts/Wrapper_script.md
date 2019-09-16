@@ -190,9 +190,9 @@
 ```
 - Small packages
 
-   <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-   <details>
-   <summary>Bioawk : - :point_right: Install</summary>
+ <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+ <details>
+ <summary>Bioawk : - :point_right: Install</summary>
 
 ```
         git clone git://github.com/lh3/bioawk.git
@@ -212,7 +212,7 @@
         bioawk
  ```
      
-   </details>
-   <!-- AUTO-GENERATED-CONTENT:END -->
+ </details>
+ <!-- AUTO-GENERATED-CONTENT:END -->
     
 ## 5. 
