@@ -1,224 +1,44 @@
-## 1. Download ORFs from CYP8B1 repository of ceglab 
+### 1. Download ORFs from CYP8B1 repository of ceglab 
 
-```
-       git clone https://github.com/ceglab/CYP8B1.git
-```
 
-## 2. Validate ORFs 
 
-#### 2.1 Install `dos2unix` to remove any dos special characters
+### 2. Validate ORFs 
 
-```sh
-       sudo apt-get install dos2unix
-```
+  #### 2.1 Install `dos2unix` to remove any dos special characters
 
-#### 2.2 Validate all ORFs using a perlscript via a forloop
 
-<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-<details>
-<summary>Validate the ORFs before running RELAX - :point_right: Why?</summary>
 
- - To detect :
-   - In-frame stop codons.
-   - DNA "ambiguity" characters other than N.
-   - lack of stop codon at the end of the sequence.
-   - lack of start codon at the beginning of start codon.
+  #### 2.2 Validate all ORFs using a perlscript via a forloop
 
-</details>
-<!-- AUTO-GENERATED-CONTENT:END -->
 
-```
-      cd /home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1
-      for i in `ls -1 ORFs/*fa`
-      do
-      echo -ne "$i\t"
-      dos2unix $i
-      perl scripts/ORFvalidator.pl $i
-      done
-```
+### 3. Calculate Mean GC content
 
-<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-<details>
-<summary>Precaution : Don't try to manually upgrade `perl` - :point_right: Why?</summary>
-  
+  #### 3.1 Download perl script to calculate GC content from the repository of DamienFr.
 
-  - If you upgrade manually - both version of perl will exist together.
-  - To execute perl scripts - 'perl modules' are necessary.
-  - The modules of each perl version is located in the 'version specific' folders.
-  - Although the perl version has changed, it still look for the modules in the same 'old' path for 'new' version. 
-  - Since it can't find the modules for new version - it will throw an error.
-  - Solution : 
-    - Install the missing module forcefully. 
-    
-          cpanm --sudo --force Bio::SeqIO
-    
-    - If necessary, change the Shebang line.
 
-          #!/usr/bin/env perl         to       #!/usr/bin/perl
+  #### 3.2 Run the perl script in a forloop for each ORF. Use a window size of 100 with a step size of 10.
 
-      
-</details>
-<!-- AUTO-GENERATED-CONTENT:END -->
 
-- Result looks like this : All sequences from each folder are converted & validated.
+  #### 3.3 Plot the distribution of GC content in R: using the rscript 'gc_content.r'
 
-<p align="center">
-  <img src="https://lkuvng.dm.files.1drv.com/y4m_Ux9WsWuTOnAwaszIqYGZsDdwOu9j8I_aBPwnLU_93hG_-_ZgtQdP-RYUlPbWhy9-7WP1ri15gJzKkyVigjLuziGLzjkdwWJpEdu_2cxbCIikHBHbksxyc2xz4iLaL1cNJ1iw7QS8Kfy2yNG37wVzbV9CA2zAWYYjqcq30tLq10UfpOH_5nOx8F01HDk5LovNbpLesRki8HAeIhB-xDo7Q?width=942&height=236&cropmode=none" width="680" title="output of ORF validation">
-  </p>
-  
-  &nbsp;
 
-## 3. Calculate Mean GC content
-
-#### 3.1 Download perl script to calculate GC content from the repository of DamienFr.
-
-```
-       git clone https://github.com/DamienFr/GC_content_in_sliding_window.git
-```
-
-#### 3.2 Run the perl script in a forloop for each ORF. Use a window size of 100 with a step size of 10.
-
-```
-       for i in `ls -1 ORFs/*fa`; do perl scripts/gc_content.pl -fasta $i [-window 100] [-step 10]; done
-```
-- The result will look like this : GC content & deviation for each sequences.
-
-<p align="center">
-  <img src="https://vqbgra.dm.files.1drv.com/y4m_d5SOYTiqc2q9mOTUb2ctH0ggNP206BTDIzbThQsbAvRW9_oc4LCCVe77zm2cw-WNBMz2ES5dVpdhLODeGaMRRxdsZ09HQAf6KL4Y3eHNfXkNPK6-pHODZRxKX-URuUhkRYL1h9hIdITt_WirWW-C2hFjnI0-Cw2rSgm5VoNAyWPKZdjyC1XCpxyjZxxNs30VHg2Zq_7d613p75yGsiSPw?width=553&height=168&cropmode=none" width="380" >
-       <IMG SRC="https://vabgra.dm.files.1drv.com/y4mk8QwE6WwSwbhttuc5u1JsA-GvpBa3J2ikPDZChnNIvmzH9lHmY03kJ3l49PEFPmbHC4lQ_H8EKoxr6C2Kj_-V5EmutwBftNrUSDN0zNxqqHkjPW8-zo05zFMMUa8pQ1IePUjVAzlF5yzGu6SdXqUUPMkbzBnrx7yk7DRmWRYgxLISKykXUrydHeVn8qD0uOoTKhFI8oxIXCeV-GnUK0ebA?width=553&height=168&cropmode=none" width="380" >
-  </p>
-
-#### 3.3 Plot the distribution of GC content in R: using the rscript 'gc_content.r'
-
-<p align="center">
-  <img src="https://tazfoa.dm.files.1drv.com/y4ms1IS8Ux4Nj1H9DXBuaWEe44h_GpVdEgIQvC9EPRo6U80JmX2z-IpJbCKmf7lRT7pRrTExXsF4HoBOwan_Z2ZiFTxKWTUVD5fH5Zbf1EERqBAmddvC4MO_JImboTxFQ-yIo6E51TDNPlBvIkTdGM31JPS4AvX2qLVZetMXsN-LkE_1g06aa0PQr2xLIyzbSFfVjwZTVixoyoSl2hzfsle6g?width=1121&height=557&cropmode=none" width="800" title="output of ORF validation">
-  </p>
-
-## 4. Install bedtools & Multiple Sequence Aligners
+### 4. Install bedtools & Multiple Sequence Aligners
 
 - [bedtools](https://bedtools.readthedocs.io/en/latest/)  v2.26.0
 
-```
-   sudo apt-get install bedtools
-   bedtools
-```
-
 - [PRANK](http://wasabiapp.org/software/prank/prank_installation/)  v.140603
-```
-    mkdir ~/programs
-    cd ~/programs
-    wget http://wasabiapp.org/download/prank/previous_version/prank.linux64.140603.tgz
-    tar prank.linux64.140603.tgz
-    ./prank/bin/prank
-    cp -R /home/$USER/programs/prank/bin/* ~/bin/
-    prank
-```
+
 - [MUSCLE](https://www.drive5.com/muscle/)  v3.8.31
-```
-    wget https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz
-    tar xvzf muscle3.8.31_i86linux64.tar.gz
-    sudo cp muscle3.8.31_i86linux64 /usr/bin/muscle
-    muscle
-```
+
     
 - [MAFFT](https://mafft.cbrc.jp/alignment/software/)  v7.450
-```
-    wget https://mafft.cbrc.jp/alignment/software/mafft-7.450-linux.tgz
-    tar -xvzf mafft-7.450-linux.tgz 
-    sudo cp mafft /usr/bin/
-    sudo chmod 777 /usr/bin/mafft
-    mafft
-```
+
 - [CLUSTALW](http://www.clustal.org/)  v2.0.12
-```
-    wget http://www.clustal.org/download/current/clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
-    tar xvzf clustalw-2.1-linux-x86_64-libcppstatic.tar.gz
-    sudo cp clustalw2 /usr/bin/
-    clustalw2
-```
+
 - [Guidance2](http://wasabiapp.org/software/pagan/)  v2.02
 
-    <img align="right" width="400" height="200" src="https://wqz02g.dm.files.1drv.com/y4mOWjtjpftRmWAcO6MkmJfMd9KIQEyHuicJUYvnkxHaLbkNDvGxQ3gC3nwCfLzQ6IMwAxnkQVR8CN3OkB22Xc0IILq6vryGk7KohHzVe3_S7LPeAz5bjgzMZSAz0waSmGBw1phavXrNcZt_3P-Zu9n9vA1Hyv-PfGpBIV91WtBB2w_lU7cFOHK3bKX3wKZGs7yT3Yusus9bUOyTWdNFdpUjA?width=868&height=436&cropmode=none">
+- Small packages - Bioawk
 
-  - Dependencies :
-      - [x] MAFFT
-      - [x] PRANK
-      - [x] CLUSTALW
-      - [x] MUSCLE
-      - [ ] PAGAN
-      - [x] Perl
-      - [X] BioPerl
-      - [x] Ruby
-
-   - First 4 MSAs were already installed except 'PAGAN' - so intall PAGAN.
-  
-  ```
-      mkdir ~/programs
-      cd ~/programs
-      wget http://wasabiapp.org/download/pagan/pagan2.linux64.20190829.tgz
-      tar -xvzf pagan2.linux64.20190829.tgz
-      ./pagan/bin/pagan
-  ```
-  
-   <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-   <details>
-   <summary> Pagan insatallation come with : - :point_right: all these tools</summary>
-       
-  - [ ] bppancestor  
-  - [ ] bppdist      
-  - [ ] bppphysamp   
-  - [ ] exonerate    
-  - [ ] fasttree     
-  - [ ] mafft        
-  - [x] pagan        
-  - [ ] pagan2       
-  - [ ] raxml
-  
-     </details>
-     <!-- AUTO-GENERATED-CONTENT:END -->
-
-    - Since we don't need other tools - here we copy only pagan to usr/bin/.
- 
-     ```
-          sudo cp -R CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
-          sudo chmod 777 /usr/bin/pagan
-     ```
-    -  Now install guidance.
-      ```
-           wget http://guidance.tau.ac.il/ver2/guidance.v2.02.tar.gz
-           tar -xzf guidance.v2.02.tar.gz
-           make
-           cpanm --sudo --force Bio::Perl.pm
-           g=/home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1/guidance.v2.02/www/Guidance/guidance.pl
-           perl $g
-      ```
-- Small packages
-
-     <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
-     <details>
-     <summary>Bioawk : - :point_right: Install</summary>
-       
-     - Download bioawk from github.
-
-    ```
-         git clone git://github.com/lh3/bioawk.git
-         cd bioawk/
-    ```  
-     - If you don't have 'yacc'/'bison' (the GNU equivalent) - the 'make' command won't work.
-     - Install bison before :
-       - type `sudo synbaptic`.
-       - Search 'yacc'.
-       - select 'bison'.
-       - Click 'Mark All Upgrades'.
-     - Now continue with 'make'.
- 
-    ``` 
-         make
-         sudo cp bioawk /usr/bin/
-         bioawk
-    ```
-     
-     </details>
-     <!-- AUTO-GENERATED-CONTENT:END -->
+    
     
 ## 5. 
