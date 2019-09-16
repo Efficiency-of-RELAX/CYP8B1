@@ -2,7 +2,7 @@
 <h2 style="text-align: center;"><strong>Brief description of what the scripts do.</strong></h2>
 
 <ol>
-<li><span style="text-decoration: underline;">Wrapper_script.sh:</span>  The full set of commands used to run each of the scripts described below.</li>
+<li><span style="text-decoration: underline;">Wrapper_script.md:</span>  The full set of steps used to run each of the scripts described below.</li>
 
 <li><span style="text-decoration: underline;">ORFvalidator.pl:</span>  This perl script will read in the multi-fasta file to verify validity of the ORF. It will detect in-frame stop codons, DNA "ambiguity" characters other than N, lack of stop codon at the end of the sequence and lack of start codon at the beginning of start codon.</li>
 
