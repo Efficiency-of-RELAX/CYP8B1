@@ -165,20 +165,20 @@
    <details>
    <summary> Pagan insatallation come with : - :point_right: all these tools</summary>
 
-   - bppancestor  
-   - bppdist      
-   - bppphysamp   
-   - exonerate    
-   - fasttree     
-   - mafft        
-   - pagan        
-   - pagan2       
-   - raxml
+  - bppancestor  
+  - bppdist      
+  - bppphysamp   
+  - exonerate    
+  - fasttree     
+  - mafft        
+  - pagan        
+  - pagan2       
+  - raxml
   
      </details>
      <!-- AUTO-GENERATED-CONTENT:END -->
 
-    - Since we don't need other tools - here we copy only pagan to usr/bin/.
+   - Since we don't need other tools - here we copy only pagan to usr/bin/.
  
   ```
         sudo cp -R CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
