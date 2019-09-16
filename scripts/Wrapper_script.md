@@ -150,11 +150,11 @@
 
   - First 4 MSAs were already installed except 'PAGAN' - so intall PAGAN.
   ```
-    mkdir ~/programs
-    cd ~/programs
-    wget http://wasabiapp.org/download/pagan/pagan2.linux64.20190829.tgz
-    tar -xvzf pagan2.linux64.20190829.tgz
-    ./pagan/bin/pagan
+     mkdir ~/programs
+     cd ~/programs
+     wget http://wasabiapp.org/download/pagan/pagan2.linux64.20190829.tgz
+     tar -xvzf pagan2.linux64.20190829.tgz
+     ./pagan/bin/pagan
   ```
      <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
      <details>
@@ -175,19 +175,19 @@
 
    - Since we don't need other tools - here we copy only pagan to usr/bin/.
  
-```
+  ```
         sudo cp -R CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
         sudo chmod 777 /usr/bin/pagan
-```
+  ```
    -  Now install guidance.
-```
+  ```
         wget http://guidance.tau.ac.il/ver2/guidance.v2.02.tar.gz
         tar -xzf guidance.v2.02.tar.gz
         make
         cpanm --sudo --force Bio::Perl.pm
         g=/home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1/guidance.v2.02/www/Guidance/guidance.pl
         perl $g
-```
+  ```
 - Small packages
 
      <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
