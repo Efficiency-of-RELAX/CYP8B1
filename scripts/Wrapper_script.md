@@ -207,11 +207,11 @@
        - Click 'Mark All Upgrades'.
      - Now continue with 'make'.
  
-      ``` 
-           make
-           sudo cp bioawk /usr/bin/
-           bioawk
-      ```
+    ``` 
+         make
+         sudo cp bioawk /usr/bin/
+         bioawk
+    ```
      
      </details>
      <!-- AUTO-GENERATED-CONTENT:END -->
