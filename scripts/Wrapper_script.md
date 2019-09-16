@@ -178,12 +178,12 @@
      </details>
      <!-- AUTO-GENERATED-CONTENT:END -->
 
-   - Since we don't need other tools - here we copy only pagan to usr/bin/.
+    - Since we don't need other tools - here we copy only pagan to usr/bin/.
  
-  ```
+   ```
         sudo cp -R CYP8B1/pagan_2019/pagan/bin/pagan /usr/bin/
         sudo chmod 777 /usr/bin/pagan
-  ```
+   ```
     -  Now install guidance.
   ```
         wget http://guidance.tau.ac.il/ver2/guidance.v2.02.tar.gz
