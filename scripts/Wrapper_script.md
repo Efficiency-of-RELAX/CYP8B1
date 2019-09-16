@@ -137,8 +137,6 @@
     clustalw2
 ```
 - [Guidance2](http://wasabiapp.org/software/pagan/)  v2.02
-  
-  <img align="right" width="500" height="250" src="https://wqz02g.dm.files.1drv.com/y4mOWjtjpftRmWAcO6MkmJfMd9KIQEyHuicJUYvnkxHaLbkNDvGxQ3gC3nwCfLzQ6IMwAxnkQVR8CN3OkB22Xc0IILq6vryGk7KohHzVe3_S7LPeAz5bjgzMZSAz0waSmGBw1phavXrNcZt_3P-Zu9n9vA1Hyv-PfGpBIV91WtBB2w_lU7cFOHK3bKX3wKZGs7yT3Yusus9bUOyTWdNFdpUjA?width=868&height=436&cropmode=none">
 
 - Dependencies :
   - [x] MAFFT
@@ -149,7 +147,6 @@
   - [x] Perl
   - [X] BioPerl
   - [x] Ruby
-  
 
 - First 4 MSAs were already installed except 'PAGAN' - so intall PAGAN.
 ```
@@ -191,3 +188,31 @@
     g=/home/ceglab8/workspace/phd/research/efficiency_of_RELAX/CYP8B1/guidance.v2.02/www/Guidance/guidance.pl
     perl $g
 ```
+- Small packages
+
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+<details>
+<summary>Bioawk : - :point_right: Install</summary>
+
+```
+    git clone git://github.com/lh3/bioawk.git
+    cd bioawk/
+ ````  
+ - If you don't have 'yacc'/'bison' (the GNU equivalent) - the 'make' command won't work.
+ - Install bison before :
+   - type `sudo synbaptic`.
+   - Search 'yacc'.
+   - select 'bison'.
+   - Click 'Mark All Upgrades'.
+ - Now continue with 'make'.
+ 
+``` 
+    make
+    sudo cp bioawk /usr/bin/
+    bioawk
+ ```
+     
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
+    
+## 5. 
