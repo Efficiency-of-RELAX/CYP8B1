@@ -164,7 +164,6 @@
    <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
    <details>
    <summary> Pagan insatallation come with : - :point_right: all these tools</summary>
-
   - [ ] bppancestor  
   - [ ] bppdist      
   - [ ] bppphysamp   
