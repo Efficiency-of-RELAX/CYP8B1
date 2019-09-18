@@ -18,8 +18,8 @@
 - [MAFFT](https://mafft.cbrc.jp/alignment/software/)  -  v7.450
 - [CLUSTALW](http://www.clustal.org/)  -  v2.0.12
 - [Guidance2](http://wasabiapp.org/software/pagan/)  -  v2.02
-- [Seqkit](https://github.com/shenwei356/seqkit) v0.10.2
-- [MUMSA](http://msa.sbc.su.se/cgi-bin/msa.cgi) v1.0
+- [Seqkit](https://github.com/shenwei356/seqkit) - v0.10.2
+- [MUMSA](http://msa.sbc.su.se/cgi-bin/msa.cgi) - v1.0
 - Extra packages - [Bioawk](https://github.com/lh3/bioawk).  
     
 ## 5. 
