@@ -9,11 +9,11 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 
 Phylogenetic tree of birds and mammals --- Phylogenetic tree across birds & mammals
 
-<img align="left" width="300" height="240" src="http://slideplayer.com/slide/3728807/13/images/54/Sequence+Gaps+Brown.+Genomes+2.jpg">
+<img align="left" width="200" height="140" src="http://slideplayer.com/slide/3728807/13/images/54/Sequence+Gaps+Brown.+Genomes+2.jpg">
 
-<p align="center">
+<p align="left">
   <img src="https://www.researchgate.net/profile/Andrei_Lukashkin/publication/323780429/figure/fig2/AS:614316390744064@1523475849079/Tree-of-life-of-amniotes-that-includes-reptiles-birds-and-mammals-All-these-classes-of.png" width="310">
-   <img src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" width="550">>
+   <img src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" width="550">
  </p>
 
 ## RELAX on CYP8B1 by Shinde et al., 2019
