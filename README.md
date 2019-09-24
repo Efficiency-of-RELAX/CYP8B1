@@ -28,7 +28,12 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 |                                          | skewed weakening of selection resulting in a shifted optimum                     |
 ***/
 
-
+/***
+| __Animals__ | __Sports__ | __Fruits__ |
+|-------------|------------|------------|
+| Cat         | Soccer     | Apple      |
+| Dog         | Basketball | Orange     |
+***/
 
 - A hypothetical environmental change :
   - Ancestral condition :
