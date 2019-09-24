@@ -1,7 +1,16 @@
 ## Detecting relaxed selection on CYP8B1 gene using RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
 
 
-The objective of this assignment is to analyze the effect of **'gaps'** and **'number of species used'** in detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/). RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
+The objective of this assignment is to analyze the effect of **'gaps'** and **'number of species used'** in detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/). Relaxed selection is a selective phenomena that occurs when selective pressures are either elimated or reduced.
+
+- Biotic examples 
+  - Predation elimination 
+  - Elimination of pathogen
+- Abiotic examples
+  - Changes in light and temperature and water
+  - Changes soil and mineral composition 
+  
+ RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
 ---
 
