@@ -9,7 +9,24 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 - Abiotic examples
   - Changes in light and temperature and water
   - Changes soil and mineral composition 
-  
+
+Selection of any form (balancing, directional, etc.) can be relaxed. An example from [ Lahti et al. 2009](https://doi.org/10.1016/j.tree.2009.03.010) is here.
+
+- A hypothetical environmental change :
+  - Ancestral condition -> a quantitative trait held by stabilizing selection -> at a particular value.
+  (a) Most extreme case -> selection could be removed completely -> Flattened fintness landscape.
+  (b) One direction remain deleterious & changes in the other direction become neutral -> more natural scenario.
+  (c) Weaker & continued stabilizing selection -> broadened fitness peak without a change in trait mean.
+  (d) Sources of selection is remaining -> Selective optimum of a trait decreased.
+  (e) Combinations of the all phenomenas (a) to (d) invovles :
+      - regions of neutrality in trait space
+      - lower fitness differences among trait values
+      - skewed weakening of selection resulting in a shifted optimum
+
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534709001505-gr1b2.jpg" align=right height=200/></div>
+
+
+
  RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
 ---
