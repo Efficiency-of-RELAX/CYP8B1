@@ -5,13 +5,19 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 ---
 
-Phylogenetic tree of birds and mammals --- Phylogenetic tree across birds & mammals
+<p align="middle">
+  <img src="https://i.stack.imgur.com/JPYZY.jpgg" width="350">
+  <img src="https://bedtools.readthedocs.io/en/latest/_images/maskfasta-glyph.png"width="350">
+   <img src="https://bedtools.readthedocs.io/en/latest/_images/random-glyph.png" width="350">
+ </p>
 
 <p align="middle">
   <img src="https://www.researchgate.net/profile/Andrei_Lukashkin/publication/323780429/figure/fig2/AS:614316390744064@1523475849079/Tree-of-life-of-amniotes-that-includes-reptiles-birds-and-mammals-All-these-classes-of.png" width="350">
    <img src="https://i.stack.imgur.com/JPYZY.jpgg" width="450">
    <img src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" width="650">
  </p>
+
+img src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" width="650"
 
 ---
 
