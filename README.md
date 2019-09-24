@@ -5,7 +5,7 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
 
-<div style="float: right; margin-left: 30px;"><img title="Pipeline to run RELAX" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=400/></div>
+<div style="float: right; margin-left: 30px;"><img title="Pipeline to run RELAX" style="float: right;margin-left: 30px;" src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" align=right height=400/></div>
 &nbsp;
 <div style="float: right; margin-left: 30px;"><img title="Pipeline to run RELAX" style="float: right;margin-left: 30px;" src="https://www.researchgate.net/profile/Andrei_Lukashkin/publication/323780429/figure/fig2/AS:614316390744064@1523475849079/Tree-of-life-of-amniotes-that-includes-reptiles-birds-and-mammals-All-these-classes-of.png" align=left height=350/></div>
 
@@ -30,7 +30,7 @@ CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. 
 <li><span style="text-decoration: underline;">scripts:</span> The scripts used for performing the ORF validation, multiple sequence alignment, model testing, tree topology inference and tests for relaxed selection are provided. Contents of this folder (scripts and instructions) along with published software tools should be suffecient to replicate all the results described in the manuscript. </li>
 <li><span style="text-decoration: underline;">relaxation_tests:</span> Output files obtained after running the RELAX program implemented in the HYPHY package.</li>
   
-  <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=450/></div>
+  <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=350/></div>
   
 ### Prerequisites :
 
