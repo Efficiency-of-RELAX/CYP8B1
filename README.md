@@ -16,7 +16,8 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 
 
 - A hypothetical environmental change :
-  - Ancestral condition -> a quantitative trait held by stabilizing selection -> at a particular value.
+  - Ancestral condition -> a quantitative trait held by stabilizing selection 
+                        -> at a particular value.
   - Most extreme case -> selection could be removed completely -> Flattened fintness landscape.
   - One direction remain deleterious & changes in the other direction become neutral -> more natural scenario.
   - Weaker & continued stabilizing selection -> broadened fitness peak without a change in trait mean.
