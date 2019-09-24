@@ -38,8 +38,8 @@ CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. 
 <li>MEGA (10.0.5)</li>  
 <li>DAMBE (7.0.58)</li>
 <li>bam-readcount (0.8.0)</li>
-<li>MUMSA (1.0)</li>  (Lassmann and Sonnhammer 2005)
-<li>modeltest-ng</li> (Darriba et al. 2019)   
+<li>MUMSA (1.0)</li> 
+<li>modeltest-ng</li>   
 <li>raxml-ng</li>
 <li>HyPhy (2.3.14)</li>   
 
