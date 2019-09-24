@@ -15,8 +15,7 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 
 <div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://iqi6ig.dm.files.1drv.com/y4mJo2lIA5uZCNHPQeW8-vfRufqLiGlRq_UnBcFm0UsM-HsXFqOQeGj8dlaz3fvh3Z-5NzzLYgTOSlwvUFOa7E4xgR_RbOxwDK3hbZpgihDDXh7R7yehY28Da0QVTQ_BYXuRO3McZCCe6AySft6dXNxV80wV0UxTGzVcxrdqxHgSaQyUPz6dyuQKDb_zl4h8iiUg8vkJbMoz0_dhm91VlPefQ?width=295&height=550&cropmode=none" align=right height=430/></div>
 
-/***
-| _______________Conditions_______________ | ___________________________________description__________________________________ |
+|                Conditions                |                                   description                                    |
 |------------------------------------------|----------------------------------------------------------------------------------|
 | Ancestral condition                      |  A quantitative trait held by stabilizing selection at a particular value        |
 | Most extreme case                        | Selection could be removed completely -> Flattened fintness landscape            |
@@ -26,7 +25,7 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 | Combinations of the all phenomenas       | regions of neutrality in trait space                                             |
 |                                          | lower fitness differences among trait values                                     |           
 |                                          | skewed weakening of selection resulting in a shifted optimum                     |
-***/
+
 
 /***
 | __Animals__ | __Sports__ | __Fruits__ |
