@@ -23,8 +23,8 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 | Weaker & continued stabilizing selection | Broadened fitness peak without a change in trait mean                            |
 | Sources of selection is remaining        | Selective optimum of a trait decreased                                           |
 | Combinations of the all phenomenas       | regions of neutrality in trait space                                             
-                                             lower fitness differences among trait values                                     
-                                             skewed weakening of selection resulting in a shifted optimum                     |
+                                           | lower fitness differences among trait values                                     
+                                           |  skewed weakening of selection resulting in a shifted optimum                    |
 
 
 
