@@ -12,6 +12,10 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 Selection of any form (balancing, directional, etc.) can be relaxed. An example from [ Lahti et al. 2009](https://doi.org/10.1016/j.tree.2009.03.010) is here.
 
+
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534709001505-gr1b2.jpg" align=right height=300/></div>
+
+
 - A hypothetical environmental change :
   - Ancestral condition -> a quantitative trait held by stabilizing selection -> at a particular value.
   - Most extreme case -> selection could be removed completely -> Flattened fintness landscape.
@@ -22,8 +26,6 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
       - regions of neutrality in trait space
       - lower fitness differences among trait values
       - skewed weakening of selection resulting in a shifted optimum
-
-<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534709001505-gr1b2.jpg" align=right height=200/></div>
 
 
 
