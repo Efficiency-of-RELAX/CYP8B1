@@ -13,7 +13,7 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 Selection of any form (balancing, directional, etc.) can be relaxed. An example from [ Lahti et al. 2009](https://doi.org/10.1016/j.tree.2009.03.010) is here.
 
 
-<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534709001505-gr1b2.jpg" align=right height=300/></div>
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://ars.els-cdn.com/content/image/1-s2.0-S0169534709001505-gr1b2.jpg" align=right height=400/></div>
 
 
 - A hypothetical environmental change :
