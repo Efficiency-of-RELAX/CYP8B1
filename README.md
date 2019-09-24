@@ -12,19 +12,34 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 Selection of any form (balancing, directional, etc.) can be relaxed. An example from [ Lahti et al. 2009](https://doi.org/10.1016/j.tree.2009.03.010) is here.
 
-<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://iqi6ig.dm.files.1drv.com/y4mJo2lIA5uZCNHPQeW8-vfRufqLiGlRq_UnBcFm0UsM-HsXFqOQeGj8dlaz3fvh3Z-5NzzLYgTOSlwvUFOa7E4xgR_RbOxwDK3hbZpgihDDXh7R7yehY28Da0QVTQ_BYXuRO3McZCCe6AySft6dXNxV80wV0UxTGzVcxrdqxHgSaQyUPz6dyuQKDb_zl4h8iiUg8vkJbMoz0_dhm91VlPefQ?width=295&height=550&cropmode=none" align=right height=300/></div>
+
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://iqi6ig.dm.files.1drv.com/y4mJo2lIA5uZCNHPQeW8-vfRufqLiGlRq_UnBcFm0UsM-HsXFqOQeGj8dlaz3fvh3Z-5NzzLYgTOSlwvUFOa7E4xgR_RbOxwDK3hbZpgihDDXh7R7yehY28Da0QVTQ_BYXuRO3McZCCe6AySft6dXNxV80wV0UxTGzVcxrdqxHgSaQyUPz6dyuQKDb_zl4h8iiUg8vkJbMoz0_dhm91VlPefQ?width=295&height=550&cropmode=none" align=right height=430/></div>
+
+/***
+| _______________Conditions_______________ | ___________________________________description__________________________________ |
+|------------------------------------------|----------------------------------------------------------------------------------|
+| Ancestral condition                      |  A quantitative trait held by stabilizing selection at a particular value        |
+| Most extreme case                        | Selection could be removed completely -> Flattened fintness landscape            |
+| More natural scenario                    | One direction remain deleterious & changes in the other direction become neutral |
+| Weaker & continued stabilizing selection | Broadened fitness peak without a change in trait mean                            |
+| Sources of selection is remaining        | Selective optimum of a trait decreased                                           |
+| Combinations of the all phenomenas       | regions of neutrality in trait space                                             |
+|                                          | lower fitness differences among trait values                                     |           
+|                                          | skewed weakening of selection resulting in a shifted optimum                     |
+***/
+
 
 
 - A hypothetical environmental change :
-  - Ancestral condition 
+  - Ancestral condition :
     - A quantitative trait held by stabilizing selection at a particular value.
-  - Most extreme case 
+  - Most extreme case :
     - Selection could be removed completely -> Flattened fintness landscape.
-  - More natural scenario 
+  - More natural scenario :
     - One direction remain deleterious & changes in the other direction become neutral.
-  - Weaker & continued stabilizing selection 
+  - Weaker & continued stabilizing selection :
     - Broadened fitness peak without a change in trait mean.
-  - Sources of selection is remaining 
+  - Sources of selection is remaining :
     - Selective optimum of a trait decreased.
   - Combinations of the all phenomenas except the most extreme case invovles :
      - regions of neutrality in trait space
