@@ -9,11 +9,7 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 &nbsp;
 <div style="float: right; margin-left: 30px;"><img title="Pipeline to run RELAX" style="float: right;margin-left: 30px;" src="https://www.researchgate.net/profile/Andrei_Lukashkin/publication/323780429/figure/fig2/AS:614316390744064@1523475849079/Tree-of-life-of-amniotes-that-includes-reptiles-birds-and-mammals-All-these-classes-of.png" align=left height=300/></div>
 
----
 > <- Phylogenetic tree of birds and mammals
----
-&nbsp;
----
 > Pipeline to run RELAX on CYP8B1 gene ->
 ---
 &nbsp;
