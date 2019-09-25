@@ -47,7 +47,7 @@ Here we used a general hypothesis testing framework called **RELAX** from [Hyphy
 HyPhy distributes a variety of methods for inferring the strength of natural selection from the genetic data. In the case of branch-based methods for detecting selection, there is Relax.
 
 <p align="center">
-  <img src="https://jkv6wq.dm.files.1drv.com/y4mmV_SD2hSsQqEvlIj57F-WqJ-JlaUZBP_JS6cWyjUJ7fX5HDiqZyC_xX6OpLnyAtil9VU8XeBTWg23ulQRFt7Pct-eQRhbe4c_QrrJPhrHNazDmc6ClbZJKLUeO4wXR5oTB-lzX8v2gCzBHb-b3-ZwkYDXTSQ-vOorZnhAgvWhPU4ybS7kCbwjGNHsB108qJUY-Wjp7MADDhmksmpA6Eacg?width=1302&height=867&cropmode=none" width="700" title="Tools to selection">
+  <img src="https://e6i6ig.dm.files.1drv.com/y4mM7dfKvEtn8e1Qn-DRQ-K5RouPlps1GYXnhFNvqH5e5Lv4OsJ5XxUKDVoTBA-1yX3bhEsHKMf9r8n7jUHPz_11PtKzICsk8nyeeoStNV9tLnXgZR-0tqkFi_hVfzEPEURe2hHZVewp9Ul2T_TmMGVTTeXDnQmwt6KJtXxITwTuy0csMYrftpunVrElyuF_BsMXt1nMXxZY7NQSQJy_DPShg?width=1685&height=1124&cropmode=none" width="650" title="Tools to selection">
   </p>
   <p align="center">
   
