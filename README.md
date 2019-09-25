@@ -57,6 +57,13 @@ RELAX is a hypothesis testing framework that asks whether the strength of natura
 ---
 Here the objective is to analyze the effect of gaps in detecting relaxed selection. Essentially, a gap occurs if something happens in our genome that can't be explained by uniformity and is also more than just mis-sequencing.
 
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=400/></div>
+
+(a) Sequence-coverage gaps 
+(b) Segmental duplication-associated gaps
+(c) Satellite-associated gaps
+(d) Muted gaps
+
 However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
 ---
