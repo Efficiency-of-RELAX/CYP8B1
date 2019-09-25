@@ -77,14 +77,17 @@ The presence of gaps can lead to several problems and ambiguities in assembly or
 Two approaches to do this:
 
 (1) Using a gene known to be under relaxed selection.
+
 (2) Using simulated data.
 
 In both cases we variably mask certain parts of the sequence as gaps and analyze the p values and k values inferred by Relax.
 To mask the sequence we used **Bedtool's** commands **random** and **maskfasta**.
 
 <p align="middle">
-  <img src="https://bedtools.readthedocs.io/en/latest/_images/maskfasta-glyph.png"width="350">
-   <img src="https://bedtools.readthedocs.io/en/latest/_images/random-glyph.png" width="350">
+  <img src="https://bedtools.readthedocs.io/en/latest/_images/maskfasta-glyph.png"width="380">
+  
+  
+  <img src="https://bedtools.readthedocs.io/en/latest/_images/random-glyph.png" width="380">
  </p>
 
 However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
