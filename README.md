@@ -44,13 +44,13 @@ Here we used a general hypothesis testing framework called RELAX from [Hyphy pac
 - molecular evolution
 - machine learning
 
-HyPhy distributes a variety of methods for inferring the strength of natural selection in your data using, in the case of brach-based methods, there is Relax.
+HyPhy distributes a variety of methods for inferring the strength of natural selection from the genetic data. In the case of brach-based methods for detecting selection, there is Relax.
 
 <p align="center">
   <img src="https://jkv6wq.dm.files.1drv.com/y4mmV_SD2hSsQqEvlIj57F-WqJ-JlaUZBP_JS6cWyjUJ7fX5HDiqZyC_xX6OpLnyAtil9VU8XeBTWg23ulQRFt7Pct-eQRhbe4c_QrrJPhrHNazDmc6ClbZJKLUeO4wXR5oTB-lzX8v2gCzBHb-b3-ZwkYDXTSQ-vOorZnhAgvWhPU4ybS7kCbwjGNHsB108qJUY-Wjp7MADDhmksmpA6Eacg?width=1302&height=867&cropmode=none" width="700" title="Tools to selection">
   </p>
   <p align="center">
-Decision tree to find the tool for detecting apropriate molecular process.
+The Decision tree made using datamonkey : to find the appropriate method for detecting the molecular process of interest.
 
 
  RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
