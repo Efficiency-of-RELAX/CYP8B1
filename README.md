@@ -60,7 +60,7 @@ Here the objective is to analyze the effect of gaps in detecting relaxed selecti
 
 <div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=300/></div>
 
-(a) Sequence-coverage gaps 
+(a) Sequence-coverage gaps:  
 
 (b) Segmental duplication-associated gaps
 
