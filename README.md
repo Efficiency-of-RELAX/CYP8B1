@@ -38,6 +38,15 @@ There are several approaches available to detect selection. What these methods d
 
 Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
 
+Here we used a general hypothesis testing framework called RELAX from [Hyphy package](http://www.hyphy.org/). HyPhy (Hypothesis Testing using Phylogenies) is an open-source software package for the analysis of genetic sequences (in particular the inference of natural selection) using techniques in phylogenetics, molecular evolution, and machine learning. HyPhy distributes a variety of methods for inferring the strength of natural selection in your data using, in the case of codon-based methods, the dN/dS metric.
+
+<p align="center">
+  <img src="https://jkv6wq.dm.files.1drv.com/y4mmV_SD2hSsQqEvlIj57F-WqJ-JlaUZBP_JS6cWyjUJ7fX5HDiqZyC_xX6OpLnyAtil9VU8XeBTWg23ulQRFt7Pct-eQRhbe4c_QrrJPhrHNazDmc6ClbZJKLUeO4wXR5oTB-lzX8v2gCzBHb-b3-ZwkYDXTSQ-vOorZnhAgvWhPU4ybS7kCbwjGNHsB108qJUY-Wjp7MADDhmksmpA6Eacg?width=1302&height=867&cropmode=none" width="700" title="Tools to selection">
+  </p>
+  <p align="center">
+Decision tree to find the tool for detecting apropriate molecular process.
+
+
  RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
 ---
