@@ -18,10 +18,13 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
  </p>
 
 We can detect selection or signatures of selection from DNA sequence of an organism. Natural selection is based on the simple observation that fitness-enhancing traits, , i.e.,
-
 &nbsp;
-
-| those that improve an organism’s chance of 'survival' or 'reproductive success' in its environment | are more likely to be passed on to that organism’s offspring | therefore increase in prevalence in the population over time.|
+| those that improve an organism’s
+chance of 'survival' or 'reproductive
+success' in its environment             | are more likely to be passed on
+                                          to that organism’s offspring    
+                                                                           | therefore increase in prevalence in the population
+                                                                             over time.|
 
  RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
