@@ -25,14 +25,14 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
  </p>
 
 ---
-
 We can detect selection or signatures of selection from DNA sequence of organisms. Natural selection is based on the simple observation that fitness-enhancing traits, i.e.,
 
 <p align="middle">
    <img src="https://fki6ig.dm.files.1drv.com/y4muJuLal2yz70SMOfsuaa_qY_3HZaOKj89iOKAHUnzD2XHklC5mlxwyrJFfVCzWnrG2ZHFTY5Chqg9o_Ji47fdvU8xwZB9MRIpN_mVNSwDZOyoTn6A-bdcZ_wfiyWKM0fwDqN802EpaQ-K9ceIrXSFH8yxlSpvDEAsO9sx013Tc-AN4WEX3Vh6f-kzEUXDK9PFYBeb7I5zC_eLXI0BVGwIrQ?width=960&height=113&cropmode=none" width="750">
  </p>
+ 
+Given that selection operates at the level of the phenotype, alleles showing evidence of selection are likely to be of functional relevance. There are several approaches available to detect selection at macroevolutionary scale. What these methods does is :
 
-There are several approaches available to detect selection. What these methods do is :
 - identify sequences that are likely to be functional (either because they code for proteins or because they are conserved among different species) 
 - Then search for lineage-specific accelerations in the rate of evolution.
 
