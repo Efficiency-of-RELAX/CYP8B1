@@ -14,7 +14,7 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 
 - A hypothetical environmental change :
 <p align="middle">
-   <img src="https://iai6ig.dm.files.1drv.com/y4mYcecLdhoFc6RqOL3Yqlb-jPDalK0divdYbrYgCn7uZfl7q-HyQSroMtWbChaJd-Ros8eucC4xPtgJS_Heb8GupoUAfm3TnY_HRsjJ7coZ11N9uLrKYCCtN7_KqUr9IDLT9FWEM9n7fzDA0tTTPk7Z2fCqXMqKHblJ-4vMxWhpW9C6INPTAEjm7crBqp7OeW20dgpbXPgZCgR7FpU8TUI3g?width=960&height=457&cropmode=none" width="650">
+   <img src="https://iai6ig.dm.files.1drv.com/y4mYcecLdhoFc6RqOL3Yqlb-jPDalK0divdYbrYgCn7uZfl7q-HyQSroMtWbChaJd-Ros8eucC4xPtgJS_Heb8GupoUAfm3TnY_HRsjJ7coZ11N9uLrKYCCtN7_KqUr9IDLT9FWEM9n7fzDA0tTTPk7Z2fCqXMqKHblJ-4vMxWhpW9C6INPTAEjm7crBqp7OeW20dgpbXPgZCgR7FpU8TUI3g?width=960&height=457&cropmode=none" width="750">
  </p>
 
 
