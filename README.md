@@ -38,7 +38,12 @@ Given that selection operates at the level of the phenotype, alleles showing evi
 
 Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
 
-Here we used a general hypothesis testing framework called RELAX from [Hyphy package](http://www.hyphy.org/). HyPhy (Hypothesis Testing using Phylogenies) is an open-source software package for the analysis of genetic sequences (in particular the inference of natural selection) using techniques in phylogenetics, molecular evolution, and machine learning. HyPhy distributes a variety of methods for inferring the strength of natural selection in your data using, in the case of codon-based methods, the dN/dS metric.
+---
+Here we used a general hypothesis testing framework called RELAX from [Hyphy package](http://www.hyphy.org/). HyPhy (Hypothesis Testing using Phylogenies) is an open-source software package for the analysis of genetic sequences for inferring natural selection using techniques in :
+- phylogenetics
+- molecular evolution
+- machine learning
+HyPhy distributes a variety of methods for inferring the strength of natural selection in your data using, in the case of brach-based methods, there is Relax.
 
 <p align="center">
   <img src="https://jkv6wq.dm.files.1drv.com/y4mmV_SD2hSsQqEvlIj57F-WqJ-JlaUZBP_JS6cWyjUJ7fX5HDiqZyC_xX6OpLnyAtil9VU8XeBTWg23ulQRFt7Pct-eQRhbe4c_QrrJPhrHNazDmc6ClbZJKLUeO4wXR5oTB-lzX8v2gCzBHb-b3-ZwkYDXTSQ-vOorZnhAgvWhPU4ybS7kCbwjGNHsB108qJUY-Wjp7MADDhmksmpA6Eacg?width=1302&height=867&cropmode=none" width="700" title="Tools to selection">
