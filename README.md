@@ -17,12 +17,12 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 
 |                Conditions                |                                   description                                    |
 |------------------------------------------|----------------------------------------------------------------------------------|
-| Ancestral condition                      |  A quantitative trait held by stabilizing selection at a particular value        |
-| (a) Most extreme case                    | Selection could be removed completely -> Flattened fintness landscape            |
-| (b) More natural scenario                | One direction remain deleterious & changes in the other direction become neutral |
-| (c) Weaker & continued stabilizing selection     | Broadened fitness peak without a change in trait mean                        |
-| (d) Sources of selection is remaining        | Selective optimum of a trait decreased                                           |
-| (e) Combinations of the all phenomenas       | regions of neutrality in trait space &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lower fitness differences among trait values &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; skewed weakening of selection resulting in a shifted optimum             |
+|Ancestral condition                       |  A quantitative trait held by stabilizing selection at a particular value        |
+|Most extreme case                         | Selection could be removed completely -> Flattened fintness landscape            |
+|More natural scenario                     | One direction remain deleterious & changes in the other direction become neutral |
+|Weaker & continued stabilizing selection  | Broadened fitness peak without a change in trait mean                            |
+|Sources of selection is remaining         | Selective optimum of a trait decreased                                           |
+|Combinations of the all phenomenas        | regions of neutrality in trait space &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lower fitness differences among trait values &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; skewed weakening of selection resulting in a shifted optimum             |
 
 
 
