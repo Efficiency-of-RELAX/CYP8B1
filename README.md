@@ -22,7 +22,7 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 | More natural scenario                    | One direction remain deleterious & changes in the other direction become neutral |
 | Weaker & continued stabilizing selection | Broadened fitness peak without a change in trait mean                            |
 | Sources of selection is remaining        | Selective optimum of a trait decreased                                           |
-|  Combinations of the all phenomenas      | regions of neutrality in trait space &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lower fitness differences among trait values &nbsp; &nbsp; skewed weakening of selection resulting in a shifted optimum             |
+|  Combinations of the all phenomenas      | regions of neutrality in trait space &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lower fitness differences among trait values &nbsp; &nbsp; skewed weakening of selection resulting in a shifted optimum             |
 
 
 
