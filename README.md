@@ -1,7 +1,7 @@
 ## Detecting relaxed selection on CYP8B1 gene using RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
 
 
-The objective of this assignment is to analyze the effect of **'gaps'** and **'number of species used'** in detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/)in terms of :
+The objective of this assignment is to analyze the effect of **'gaps'** and **'number of species used'** in detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/) in terms of :
 - number of gaps
 - length of gaps 
 - number of species.
