@@ -52,7 +52,7 @@ HyPhy distributes a variety of methods for inferring the strength of natural sel
   </p>
   <p align="center">
   
-> The Decision tree made using datamonkey : to find the appropriate method for detecting the molecular process of interest. >
+> The Decision tree made using datamonkey : to find the appropriate method for detecting the molecular process of interest. 
 
 RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches.
 
@@ -61,20 +61,37 @@ Here the objective is to analyze the effect of gaps in detecting relaxed selecti
 
 <div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=300/></div>
 
-(a) Sequence-coverage gaps: absence or reduction in sequence reads at that location.  
+(a) **Sequence-coverage gaps**: absence or reduction in sequence reads at that location.  
 
-(b) Segmental duplication-associated gaps: high sequence identity make read overlaps ambiguous.
+(b) **Segmental duplication-associated gaps**: high sequence identity make read overlaps ambiguous.
 
-(c) Satellite-associated gaps: higher-order tandem arrays of repetitive sequence cause read 'pileups'.
+(c) **Satellite-associated gaps**: higher-order tandem arrays of repetitive sequence cause read 'pileups'.
 
-(d) Muted gaps: Contracted assembly relative to true genome.
+(d) **Muted gaps**: Contracted assembly relative to true genome.
+
+One of the first problems anyone who do sequencing have to tackle is to distinguish the gap source between sequencing or alignment error versus actual indel in DNA. In such cases we have to minimize the false positives(type 1 error) and false negatives(type 2 error).
+
+---
+The presence of gaps can lead to several problems and ambiguities in assembly or alignment and hence the downstream analysis. These could lead to misinterpretation of the biology of data we are analyzing. As a matter of fact, here we try to analyze how the presence of gaps affect a prticular downstream analysis - inference of strength of Natural Selection.   
+
+Two approaches to do this:
+
+(1) Using a gene known to be under relaxed selection.
+(2) Using simulated data.
+
+In both cases we variably mask certain parts of the sequence as gaps and analyze the p values and k values inferred by Relax.
+To mask the sequence we used **Bedtool's** commands **random** and **maskfasta**.
+
+<p align="middle">
+  <img src="https://bedtools.readthedocs.io/en/latest/_images/maskfasta-glyph.png"width="350">
+   <img src="https://bedtools.readthedocs.io/en/latest/_images/random-glyph.png" width="350">
+ </p>
 
 However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
 ---
 
 <p align="middle">
-  <img src="https://i.stack.imgur.com/JPYZY.jpgg" width="350">
   <img src="https://bedtools.readthedocs.io/en/latest/_images/maskfasta-glyph.png"width="350">
    <img src="https://bedtools.readthedocs.io/en/latest/_images/random-glyph.png" width="350">
  </p>
