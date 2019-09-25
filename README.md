@@ -50,14 +50,14 @@ HyPhy distributes a variety of methods for inferring the strength of natural sel
   <img src="https://jkv6wq.dm.files.1drv.com/y4mmV_SD2hSsQqEvlIj57F-WqJ-JlaUZBP_JS6cWyjUJ7fX5HDiqZyC_xX6OpLnyAtil9VU8XeBTWg23ulQRFt7Pct-eQRhbe4c_QrrJPhrHNazDmc6ClbZJKLUeO4wXR5oTB-lzX8v2gCzBHb-b3-ZwkYDXTSQ-vOorZnhAgvWhPU4ybS7kCbwjGNHsB108qJUY-Wjp7MADDhmksmpA6Eacg?width=1302&height=867&cropmode=none" width="700" title="Tools to selection">
   </p>
   <p align="center">
-The Decision tree made using datamonkey : to find the appropriate method for detecting the molecular process of interest.
+> The Decision tree made using datamonkey : to find the appropriate method for detecting the molecular process of interest.
 
 RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches.
 
 ---
 Here the objective is to analyze the effect of gaps in detecting relaxed selection. Essentially, a gap occurs if something happens in our genome that can't be explained by uniformity and is also more than just mis-sequencing.
 
-<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=400/></div>
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=300/></div>
 
 (a) Sequence-coverage gaps 
 (b) Segmental duplication-associated gaps
