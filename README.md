@@ -12,11 +12,16 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 Selection of any form (balancing, directional, etc.) can be relaxed. An example from [ Lahti et al. 2009](https://doi.org/10.1016/j.tree.2009.03.010) is here.
 
-- A hypothetical environmental change :
+- A hypothetical environmental change from ancestral condition : possible outcomes -> (a) to (e)
 <p align="middle">
    <img src="https://iai6ig.dm.files.1drv.com/y4mYcecLdhoFc6RqOL3Yqlb-jPDalK0divdYbrYgCn7uZfl7q-HyQSroMtWbChaJd-Ros8eucC4xPtgJS_Heb8GupoUAfm3TnY_HRsjJ7coZ11N9uLrKYCCtN7_KqUr9IDLT9FWEM9n7fzDA0tTTPk7Z2fCqXMqKHblJ-4vMxWhpW9C6INPTAEjm7crBqp7OeW20dgpbXPgZCgR7FpU8TUI3g?width=960&height=457&cropmode=none" width="750">
  </p>
 
+We can detect selection or signatures of selection from DNA sequence of an organism. Natural selection is based on the simple observation that fitness-enhancing traits, , i.e.,
+
+&nsbp;
+
+| those that improve an organism’s chance of 'survival' or 'reproductive success' in its environment | are more likely to be passed on to that organism’s offspring | therefore increase in prevalence in the population over time.|
 
  RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
