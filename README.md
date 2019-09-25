@@ -21,11 +21,16 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 
 ---
 
-We can detect selection or signatures of selection from DNA sequence of an organism. Natural selection is based on the simple observation that fitness-enhancing traits, , i.e.,
+We can detect selection or signatures of selection from DNA sequence of organisms. Natural selection is based on the simple observation that fitness-enhancing traits, i.e.,
 
 <p align="middle">
    <img src="https://fki6ig.dm.files.1drv.com/y4muJuLal2yz70SMOfsuaa_qY_3HZaOKj89iOKAHUnzD2XHklC5mlxwyrJFfVCzWnrG2ZHFTY5Chqg9o_Ji47fdvU8xwZB9MRIpN_mVNSwDZOyoTn6A-bdcZ_wfiyWKM0fwDqN802EpaQ-K9ceIrXSFH8yxlSpvDEAsO9sx013Tc-AN4WEX3Vh6f-kzEUXDK9PFYBeb7I5zC_eLXI0BVGwIrQ?width=960&height=113&cropmode=none" width="750">
  </p>
+
+There are several approaches available to detect selection. What these methods do is :
+- identify sequences that are likely to be functional (either because they code for proteins or because they are conserved among different species) 
+- Then search for lineage-specific accelerations in the rate of evolution.
+Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
 
  RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
 
