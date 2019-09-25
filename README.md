@@ -6,7 +6,7 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 - length of gaps 
 - number of species.
 ---
-Relaxed selection is a selective phenomena that occurs when selective pressures are either elimated or reduced.
+**Relaxed selection** is a selective phenomena that occurs when selective pressures are either elimated or reduced.
 
 - Biotic examples 
   - Predation elimination 
