@@ -30,6 +30,7 @@ We can detect selection or signatures of selection from DNA sequence of organism
 There are several approaches available to detect selection. What these methods do is :
 - identify sequences that are likely to be functional (either because they code for proteins or because they are conserved among different species) 
 - Then search for lineage-specific accelerations in the rate of evolution.
+
 Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
 
  RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches. However to test this program, we need to have some known ground truth or control i.e., a sequence known to be under strong relaxed selection. Here we choose the gene CYP8B1 which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota'). 
