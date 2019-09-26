@@ -21,10 +21,11 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 Selection of any form (balancing, directional, etc.) can be relaxed. An example from [ Lahti et al. 2009](https://doi.org/10.1016/j.tree.2009.03.010) is here.
 
-- A hypothetical environmental change from an ancestral condition : possible outcomes -> (a) to (e)
 <p align="middle">
    <img src="https://iai6ig.dm.files.1drv.com/y4mYcecLdhoFc6RqOL3Yqlb-jPDalK0divdYbrYgCn7uZfl7q-HyQSroMtWbChaJd-Ros8eucC4xPtgJS_Heb8GupoUAfm3TnY_HRsjJ7coZ11N9uLrKYCCtN7_KqUr9IDLT9FWEM9n7fzDA0tTTPk7Z2fCqXMqKHblJ-4vMxWhpW9C6INPTAEjm7crBqp7OeW20dgpbXPgZCgR7FpU8TUI3g?width=960&height=457&cropmode=none" width="750">
  </p>
+
+>  A hypothetical environmental change from an ancestral condition : possible outcomes -> (a) to (e)
 
 ---
 ### Detect selection in Genomic data.
@@ -35,6 +36,8 @@ be shaped by natural selection. Natural selection is based on the simple observa
 <p align="middle">
    <img src="https://fki6ig.dm.files.1drv.com/y4muJuLal2yz70SMOfsuaa_qY_3HZaOKj89iOKAHUnzD2XHklC5mlxwyrJFfVCzWnrG2ZHFTY5Chqg9o_Ji47fdvU8xwZB9MRIpN_mVNSwDZOyoTn6A-bdcZ_wfiyWKM0fwDqN802EpaQ-K9ceIrXSFH8yxlSpvDEAsO9sx013Tc-AN4WEX3Vh6f-kzEUXDK9PFYBeb7I5zC_eLXI0BVGwIrQ?width=960&height=113&cropmode=none" width="750">
  </p>
+ 
+ > The way in which selection become observable and quantifiable.
  
 Given that selection operates at the level of the phenotype, alleles showing evidence of selection are likely to be of functional relevance. There are several approaches available to detect selection at macroevolutionary scale. 
 What these methods does is :
@@ -70,6 +73,8 @@ Here the objective is to analyze the effect of gaps in detecting relaxed selecti
 
 <div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=300/></div>
 
+> Types of genome assembly gaps.
+
 (a) **Sequence-coverage gaps**: absence or reduction in sequence reads at that location.  
 
 (b) **Segmental duplication-associated gaps**: high sequence identity make read overlaps ambiguous.
@@ -99,6 +104,8 @@ To mask the sequence we used **Bedtool's** commands :
 <p align="middle">
   <img src="https://hahvlw.dm.files.1drv.com/y4mb3IO83k7bJJMg5bXgxAly5D4ImA0FhPXepySdGky9b2TOyWDCZOW6UuOfYohE6jp_cVT-AXxrwoUvkq_avnSnpkGLTXXKOlBSmsk04Mt-USdynmSbwCtoYR_DUBS49MZcJttpFq2DW2Zt-OBjkWpcdUPi6GEIWPeieLEFgN_2_Gv_N3p0TSAN6mqcyrfvCqIGxMYJvFAZg5UPU474l-YhA?width=959&height=287&cropmode=none" width="700">
  </p>
+ 
+ > How the bedtools 'random' and 'maskfasta' command works.
 
 For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. They used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
 
