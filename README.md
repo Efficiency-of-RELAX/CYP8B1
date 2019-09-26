@@ -37,9 +37,7 @@ be shaped by natural selection. Natural selection is based on the simple observa
    <img src="https://fki6ig.dm.files.1drv.com/y4muJuLal2yz70SMOfsuaa_qY_3HZaOKj89iOKAHUnzD2XHklC5mlxwyrJFfVCzWnrG2ZHFTY5Chqg9o_Ji47fdvU8xwZB9MRIpN_mVNSwDZOyoTn6A-bdcZ_wfiyWKM0fwDqN802EpaQ-K9ceIrXSFH8yxlSpvDEAsO9sx013Tc-AN4WEX3Vh6f-kzEUXDK9PFYBeb7I5zC_eLXI0BVGwIrQ?width=960&height=113&cropmode=none" width="750">
  </p>
  
- <p align="center">
-  `The way in which selection become observable and quantifiable.`
- </p>
+                     > The way in which selection become observable and quantifiable.
  
 Given that selection operates at the level of the phenotype, alleles showing evidence of selection are likely to be of functional relevance. There are several approaches available to detect selection at macroevolutionary scale. 
 What these methods does is :
