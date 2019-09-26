@@ -40,6 +40,7 @@ be shaped by natural selection. Natural selection is based on the simple observa
                        The way in which selection become observable and quantifiable.
  
 Given that selection operates at the level of the phenotype, alleles showing evidence of selection are likely to be of functional relevance. There are several approaches available to detect selection at macroevolutionary scale. 
+
 What these methods does is :
 
 - identify sequences that are likely to be functional (coding or conserved) 
@@ -69,7 +70,9 @@ RELAX is a hypothesis testing framework that asks whether the strength of natura
 ---
 ### What are Gaps ?
 
-Here the objective is to analyze the effect of gaps in detecting relaxed selection. Essentially, a gap occurs if something happens in our genome that can't be explained by uniformity and is also more than just mis-sequencing. Here are some types of genome assembly gaps from [Chaisson et al., 2015](https://www.ncbi.nlm.nih.gov/pubmed/26442640) :
+Here the objective is to analyze the effect of gaps in detecting relaxed selection. Essentially, a gap occurs if something happens in our genome that can't be explained by uniformity and is also more than just mis-sequencing. 
+
+Here are some types of genome assembly gaps from [Chaisson et al., 2015](https://www.ncbi.nlm.nih.gov/pubmed/26442640) :
 
 <div style="float: right; margin-left: 30px;"><img title="Types of genome assembly gaps." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=300/></div>
                       
@@ -87,7 +90,7 @@ One of the first problems anyone who do sequencing have to tackle is to distingu
 ---
 ### Objective :
 
-The presence of gaps can lead to several problems and ambiguities in assembly or alignment and hence the downstream analysis. These could lead to misinterpretation of the biology of data we are analyzing. As a matter of fact, here we try to analyze how the presence of gaps affect a prticular downstream analysis - inference of strength of Natural Selection.   
+The presence of gaps can lead to several problems and ambiguities in assembly or alignment and hence the downstream analysis. These could lead to misinterpretation of the biology of data we are analyzing. As a matter of fact, here we try to analyze how the presence of gaps affect a particular downstream analysis - inference of strength of Natural Selection.   
 
 Two approaches to do this:
 
