@@ -1,4 +1,4 @@
-## Effect of gaps on detecting Relaxed Selection by RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
+## Effect of gaps in detecting Relaxed Selection by RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
 
 The objective of this assignment is to analyze the effect of **gaps** and **number of species** in efficiency of detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/) in terms of :
 - number of gaps
