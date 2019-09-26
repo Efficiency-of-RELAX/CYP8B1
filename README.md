@@ -1,11 +1,12 @@
 ## Detecting relaxed selection on CYP8B1 gene using RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
 
-
 The objective of this assignment is to analyze the effect of **'gaps'** and **'number of species used'** in detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/) in terms of :
 - number of gaps
 - length of gaps 
 - number of species.
 ---
+### What is Relaxed Selection ?
+
 **Relaxed selection** is a selective phenomena that occurs when selective pressures are either eliminated or reduced.
 
 - Biotic examples 
@@ -16,6 +17,7 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
   - Changes soil and mineral composition 
 
 ---
+### Alternatives to Relaxed selection.
 
 Selection of any form (balancing, directional, etc.) can be relaxed. An example from [ Lahti et al. 2009](https://doi.org/10.1016/j.tree.2009.03.010) is here.
 
@@ -25,6 +27,8 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
  </p>
 
 ---
+### Detect selection in Genomic data.
+
 We can detect selection or signatures of selection from DNA sequence of organisms. The past fifty six years have seen the development and application of numerous statistical methods to identify genomic regions that appear to
 be shaped by natural selection. Natural selection is based on the simple observation of fitness-enhancing traits. 
 
@@ -41,6 +45,8 @@ What these methods does is :
 Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
 
 ---
+### Method to use ?
+
 Here we used a general hypothesis testing framework called **RELAX** from [Hyphy package](http://www.hyphy.org/). HyPhy (Hypothesis Testing using Phylogenies) is an open-source software package for the analysis of genetic sequences for inferring natural selection using techniques of :
 - phylogenetics
 - molecular evolution
@@ -58,6 +64,8 @@ HyPhy distributes a variety of methods for inferring the strength of natural sel
 RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches.
 
 ---
+### What are Gaps ?
+
 Here the objective is to analyze the effect of gaps in detecting relaxed selection. Essentially, a gap occurs if something happens in our genome that can't be explained by uniformity and is also more than just mis-sequencing. Here are some types of genome assembly gaps from [Chaisson et al., 2015](https://www.ncbi.nlm.nih.gov/pubmed/26442640) :
 
 <div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=300/></div>
@@ -73,6 +81,8 @@ Here the objective is to analyze the effect of gaps in detecting relaxed selecti
 One of the first problems anyone who do sequencing have to tackle is to distinguish the gap source between sequencing or alignment error versus actual indel in DNA. In such cases we have to minimize the false positives (type 1 error) and false negatives (type 2 error).
 
 ---
+### Objective :
+
 The presence of gaps can lead to several problems and ambiguities in assembly or alignment and hence the downstream analysis. These could lead to misinterpretation of the biology of data we are analyzing. As a matter of fact, here we try to analyze how the presence of gaps affect a prticular downstream analysis - inference of strength of Natural Selection.   
 
 Two approaches to do this:
@@ -102,18 +112,12 @@ For the first approach we took a gene known to be under strong relaxed selection
 
 The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
 
-### Data is organised into the following folders
+### Results
 
-<li><span style="text-decoration: underline;">ORFs:</span> Each file in this folder contains the complete open reading from of the CYP8B1 gene starting from start codon all the way till the stop codon</li>
-<li><span style="text-decoration: underline;">SAMs:</span> Each file in this folder contains the results of performing SRA blastn search against publically available raw read data from the short read archive (SRA)</li>
-<li><span style="text-decoration: underline;">MSAs:</span> Each file in this folder contains the results of multiple sequence alignment of the ORF files using guidance with PRANK, CLUSTALW, MAFFT or MUSCLE as the aligner</li>
-<li><span style="text-decoration: underline;">gc_content:</span> The GC content and GC deviation are calculated for each ORF in window size of 100 with a step size of 10. The script plotGC_content.r is used to visualise these results </li>
-<li><span style="text-decoration: underline;">scripts:</span> The scripts used for performing the ORF validation, multiple sequence alignment, model testing, tree topology inference and tests for relaxed selection are provided. Contents of this folder (scripts and instructions) along with published software tools should be suffecient to replicate all the results described in the manuscript. </li>
-<li><span style="text-decoration: underline;">relaxation_tests:</span> Output files obtained after running the RELAX program implemented in the HYPHY package.</li>
-  
+
   <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=400/></div>
   
-### Prerequisites :
+#### Prerequisites :
 
 <li><span style="text-decoration: underline;">PRANK (v.140603)</li>
 <li>MUSCLE (v3.8.31)</li>
@@ -125,4 +129,15 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 <li>modeltest-ng</li>   
 <li>raxml-ng</li>
 <li>HyPhy (2.3.14)</li>   
+
+#### Data is organised into the following folders
+
+
+<li><span style="text-decoration: underline;">ORFs:</span> Each file in this folder contains the complete open reading from of the CYP8B1 gene starting from start codon all the way till the stop codon</li>
+<li><span style="text-decoration: underline;">SAMs:</span> Each file in this folder contains the results of performing SRA blastn search against publically available raw read data from the short read archive (SRA)</li>
+<li><span style="text-decoration: underline;">MSAs:</span> Each file in this folder contains the results of multiple sequence alignment of the ORF files using guidance with PRANK, CLUSTALW, MAFFT or MUSCLE as the aligner</li>
+<li><span style="text-decoration: underline;">gc_content:</span> The GC content and GC deviation are calculated for each ORF in window size of 100 with a step size of 10. The script plotGC_content.r is used to visualise these results </li>
+<li><span style="text-decoration: underline;">scripts:</span> The scripts used for performing the ORF validation, multiple sequence alignment, model testing, tree topology inference and tests for relaxed selection are provided. Contents of this folder (scripts and instructions) along with published software tools should be suffecient to replicate all the results described in the manuscript. </li>
+<li><span style="text-decoration: underline;">relaxation_tests:</span> Output files obtained after running the RELAX program implemented in the HYPHY package.</li>
+  
 
