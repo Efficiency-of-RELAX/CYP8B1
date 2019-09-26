@@ -3,7 +3,7 @@
 The objective of this assignment is to analyze the effect of **gaps** and **number of species** in efficiency of detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/) in terms of :
 - number of gaps
 - length of gaps 
-- number of species.
+- number of species
 ---
 ### What is Relaxed Selection ?
 
@@ -46,7 +46,7 @@ What these methods does is :
 - identify sequences that are likely to be functional (coding or conserved) 
 - Then search for lineage-specific accelerations in the rate of evolution.
 
-Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
+Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the number and rate of synonymous mutations.
 
 ---
 ### Method to use ?
