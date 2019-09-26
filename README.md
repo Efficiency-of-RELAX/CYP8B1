@@ -109,7 +109,16 @@ To mask the sequence we used **Bedtool's** commands :
  
                           How the bedtools 'random' and 'maskfasta' command works.
 
-For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. They used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
+For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). 
+
+<p align="center">
+  <img src="https://taz02g.dm.files.1drv.com/y4mu1DshNT16gYNWFpWnG5Yc7k7xE0tPAv-pyMjrl0ogXbJxMX-5Fd3zfAIRcLtXabY1p1gT31qAm4Jm2Zu-bp6rTgAMAY4Gk3zThXyy4Vt7iKKgupjdf3ZjwNqoIzh_xOwxFpIR_wc9kfPZjPQmT-fGu_OxC7UITmLAaHGRHV5TbNd7umfu_xDAJTBXoiGNzgLAZ_vC_wKSySlhVxkBHShCQ?width=359&height=381&cropmode=none" width="380">
+  <img src="https://hki6ig.dm.files.1drv.com/y4mh8e8-Q0lnc4OlpVCjNPNqOkF-KIIdGO6smfwMhjM4eecVzfA97gUcWmfKCvY3y5tQePZm8VzTaiq4x3KvO_CQ9AyZFhlczD1mfJgVDgea4zAgcVI1dr2lxck6UsovPheBW8I7HSLImYkVCAktBdawuaJ0RNO76eTKZxNIJ3Ea0a_vyZ9ZrGvg2dmcVlHjb-KkPeGCt3tItAUh4JqQA_Dkw?width=397&height=442&cropmode=none" width="380">
+</p> 
+
+                                A small overview about CYP8B1 gene and protein
+
+CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The loss of this gene has been linked to lack of cholic acid in naked mole rats, elephants and manatees. The Sagar et., 2019 used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
 
 <p align="middle">
    <img src="https://hqhvlw.dm.files.1drv.com/y4mxxn8VKeSKAUsrWGeXZFZHH6hG_8MHES2STtqms_d6d4EZ6BrYbXOlMTH3uOZcQiYwbDJTlJ14bnOUn00fkvaT4awsyExwbPsTmjNxkKPR3B4fDvqrJcA-eZtqb17IbSj7VEnXVdDa_yru_jW2Ee5rCM2WA5JRlh6o-5roBkbCbYt-7QVMaRCvPiqXDzOLlbJBwH6Osql_S15yB17PyIgtw?width=1308&height=1124&cropmode=none" width="650">
@@ -117,7 +126,7 @@ For the first approach we took a gene known to be under strong relaxed selection
 
                    The taxonomic orders in Sagar et al., 2019 study are boxed red ~ 15 groups.   
 
-The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
+The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the Shinde et al., 2019. The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
 
 ---
 
