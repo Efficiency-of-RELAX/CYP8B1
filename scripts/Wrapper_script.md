@@ -20,6 +20,10 @@
 - [Guidance2](http://wasabiapp.org/software/pagan/)  -  v2.02
 - [Seqkit](https://github.com/shenwei356/seqkit) - v0.10.2
 - [MUMSA](http://msa.sbc.su.se/cgi-bin/msa.cgi) - v1.0
+- [ModelTest-NG](https://github.com/ddarriba/modeltest) v0.1.5
+- [raxml](https://github.com/stamatak/standard-RAxML) v8.2.12
+- [RAXml-NG](https://github.com/amkozlov/raxml-ng) v0.9.0
+- [Newick Utilitties](http://cegg.unige.ch/newick_utils) v1.6
 - Extra packages - [Bioawk](https://github.com/lh3/bioawk).  
     
 ## 5. 
