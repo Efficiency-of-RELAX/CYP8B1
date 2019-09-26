@@ -1,4 +1,4 @@
-## Detecting relaxed selection on CYP8B1 gene using RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
+## Effect of gaps on detecting Relaxed Selection by RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
 
 The objective of this assignment is to analyze the effect of **'gaps'** and **'number of species used'** in detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/) in terms of :
 - number of gaps
@@ -45,7 +45,7 @@ What these methods does is :
 Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
 
 ---
-### Method to use ?
+### Which method to use ?
 
 Here we used a general hypothesis testing framework called **RELAX** from [Hyphy package](http://www.hyphy.org/). HyPhy (Hypothesis Testing using Phylogenies) is an open-source software package for the analysis of genetic sequences for inferring natural selection using techniques of :
 - phylogenetics
@@ -113,7 +113,6 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 ---
 
 ### Results
-
 
   <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=400/></div>
   
