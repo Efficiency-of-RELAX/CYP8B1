@@ -9,10 +9,10 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 
 **Relaxed selection** is a selective phenomena that occurs when selective pressures are either eliminated or reduced.
 
-- Biotic examples 
+- Biotic sources :
   - Predation elimination 
   - Elimination of pathogen
-- Abiotic examples
+- Abiotic sources :
   - Changes in light and temperature and water
   - Changes soil and mineral composition 
 
@@ -28,7 +28,7 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
        A hypothetical environmental change from an ancestral condition : possible outcomes -> (a) to (e)
 
 ---
-### Detect selection in Genomic data.
+### Detection of selection in Genomic data.
 
 We can detect selection or signatures of selection from DNA sequence of organisms. The past fifty six years have seen the development and application of numerous statistical methods to identify genomic regions that appear to
 be shaped by natural selection. Natural selection is based on the simple observation of fitness-enhancing traits. 
@@ -48,7 +48,7 @@ What these methods does is :
 Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
 
 ---
-### Which method to use ?
+### Method to use ?
 
 Here we used a general hypothesis testing framework called **RELAX** from [Hyphy package](http://www.hyphy.org/). HyPhy (Hypothesis Testing using Phylogenies) is an open-source software package for the analysis of genetic sequences for inferring natural selection using techniques of :
 - phylogenetics
@@ -118,8 +118,7 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 
 ---
 
-### Results
-
+### Workflow
   <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=400/></div>
   
 #### Prerequisites :
@@ -136,6 +135,8 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 <li>HyPhy (2.3.14)</li>   
 
 &nbsp;
+
+### Results
 
 #### Data is organised into the following folders
 
