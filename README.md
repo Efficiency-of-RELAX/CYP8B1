@@ -70,7 +70,7 @@ Here the objective is to analyze the effect of gaps in detecting relaxed selecti
 
 (d) **Muted gaps**: Contracted assembly relative to true genome.
 
-One of the first problems anyone who do sequencing have to tackle is to distinguish the gap source between sequencing or alignment error versus actual indel in DNA. In such cases we have to minimize the false positives(type 1 error) and false negatives(type 2 error).
+One of the first problems anyone who do sequencing have to tackle is to distinguish the gap source between sequencing or alignment error versus actual indel in DNA. In such cases we have to minimize the false positives (type 1 error) and false negatives (type 2 error).
 
 ---
 The presence of gaps can lead to several problems and ambiguities in assembly or alignment and hence the downstream analysis. These could lead to misinterpretation of the biology of data we are analyzing. As a matter of fact, here we try to analyze how the presence of gaps affect a prticular downstream analysis - inference of strength of Natural Selection.   
@@ -92,22 +92,15 @@ To mask the sequence we used **Bedtool's** commands :
   <img src="https://bedtools.readthedocs.io/en/latest/_images/random-glyph.png" width="380">
  </p>
 
-For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). 
+For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. They used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
 
 <p align="middle">
    <img src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" width="650">
  </p>
+
+> The taxonomic orders in Sagar et al., 2019 study -> yellow and brick red.   
 
 The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
-
-CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The code and data provided in this project are part of the below manuscript "Shinde, S.S., Teekas, L., Sharma, S. et al. J Mol Evol (2019). https://doi.org/10.1007/s00239-019-09903-6". A pre-publication pre-print of the same is available here: https://www.biorxiv.org/content/10.1101/714188v1".
-
-
-<p align="middle">
-  <img src="https://www.researchgate.net/profile/Andrei_Lukashkin/publication/323780429/figure/fig2/AS:614316390744064@1523475849079/Tree-of-life-of-amniotes-that-includes-reptiles-birds-and-mammals-All-these-classes-of.png" width="350">
-   <img src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" width="650">
- </p>
-
 
 ### Data is organised into the following folders
 
