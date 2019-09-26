@@ -54,6 +54,9 @@ Such accelerations are indicated by an excess of substitutions relative to the b
 ### Method to use ?
 
 Here we used a general hypothesis testing framework called **RELAX** from [Hyphy package](http://www.hyphy.org/). HyPhy (Hypothesis Testing using Phylogenies) is an open-source software package for the analysis of genetic sequences for inferring natural selection using techniques of :
+
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://stevenweaver.github.io/hyphy-site/images/logo.svg" align=right height=90/></div>
+
 - phylogenetics
 - molecular evolution
 - machine learning
@@ -132,9 +135,10 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 
 ---
 
-### Workflow
   <div style="float: right; margin-left: 30px;"><img title="CYP8B1 analysis workflow" style="float: right;margin-left: 30px;" src="https://raw.githubusercontent.com/ceglab/CYP8B1/master/Workflow_CYP8B1.jpg" align=right height=400/></div>
-  
+
+### Workflow
+
 #### Prerequisites :
 
 <li><span style="text-decoration: underline;">PRANK (v.140603)</li>
