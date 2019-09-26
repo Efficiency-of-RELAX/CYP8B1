@@ -1,6 +1,6 @@
 ## Effect of gaps on detecting Relaxed Selection by RELAX <img src="http://www.hyphy.org/images/logo.svg" title="RELAX by HyPhy" width="40" height="40">
 
-The objective of this assignment is to analyze the effect of **'gaps'** and **'number of species used'** in detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/) in terms of :
+The objective of this assignment is to analyze the effect of **gaps** and **number of species** in efficiency of detecting relaxed selection by [RELAX](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4327161/) in terms of :
 - number of gaps
 - length of gaps 
 - number of species.
@@ -30,7 +30,7 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
 ---
 ### Detection of selection in Genomic data.
 
-We can detect selection or signatures of selection from DNA sequence of organisms. The past fifty six years have seen the development and application of numerous statistical methods to identify genomic regions that appear to
+We can detect signatures of selection from DNA sequence of organisms. The past fifty six years have seen the development and application of numerous statistical methods to identify genomic regions that appear to
 be shaped by natural selection. Natural selection is based on the simple observation of fitness-enhancing traits. 
 
 <p align="middle">
