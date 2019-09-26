@@ -95,7 +95,7 @@ To mask the sequence we used **Bedtool's** commands :
 For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. They used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
 
 <p align="middle">
-   <img src="https://hqi6ig.dm.files.1drv.com/y4mvy55QaPOJiLUsdPXcbVsBK7uLm4TnpfEvsomw8nemcIAUcXev_SnEEW4aR2Jnfto2LttyBMYXLoW86IovQtphUw351cQ7jpNK1RbipYQnc-4SEr2dr7gooHhLlMczCxrg0J3mX9rG7Sx-FXiaBafTkj-0viM-dJ2-IFA-u-vyFMTjoiQ3KJZh_UrLWAH4xAINzegSFoUi3UXfWCII1_M2Q?width=1423&height=1225&cropmode=none" width="650">
+   <img src="https://hqhvlw.dm.files.1drv.com/y4mxxn8VKeSKAUsrWGeXZFZHH6hG_8MHES2STtqms_d6d4EZ6BrYbXOlMTH3uOZcQiYwbDJTlJ14bnOUn00fkvaT4awsyExwbPsTmjNxkKPR3B4fDvqrJcA-eZtqb17IbSj7VEnXVdDa_yru_jW2Ee5rCM2WA5JRlh6o-5roBkbCbYt-7QVMaRCvPiqXDzOLlbJBwH6Osql_S15yB17PyIgtw?width=1308&height=1124&cropmode=none" width="650">
  </p>
 
 > The taxonomic orders in Sagar et al., 2019 study -> yellow and brick red.   
