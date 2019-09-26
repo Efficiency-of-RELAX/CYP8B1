@@ -97,7 +97,7 @@ To mask the sequence we used **Bedtool's** commands :
 - **maskfasta** -  masks sequences based on intervals.
 
 <p align="middle">
-  <img src="https://hahvlw.dm.files.1drv.com/y4mb3IO83k7bJJMg5bXgxAly5D4ImA0FhPXepySdGky9b2TOyWDCZOW6UuOfYohE6jp_cVT-AXxrwoUvkq_avnSnpkGLTXXKOlBSmsk04Mt-USdynmSbwCtoYR_DUBS49MZcJttpFq2DW2Zt-OBjkWpcdUPi6GEIWPeieLEFgN_2_Gv_N3p0TSAN6mqcyrfvCqIGxMYJvFAZg5UPU474l-YhA?width=959&height=287&cropmode=none" width="650">
+  <img src="https://hahvlw.dm.files.1drv.com/y4mb3IO83k7bJJMg5bXgxAly5D4ImA0FhPXepySdGky9b2TOyWDCZOW6UuOfYohE6jp_cVT-AXxrwoUvkq_avnSnpkGLTXXKOlBSmsk04Mt-USdynmSbwCtoYR_DUBS49MZcJttpFq2DW2Zt-OBjkWpcdUPi6GEIWPeieLEFgN_2_Gv_N3p0TSAN6mqcyrfvCqIGxMYJvFAZg5UPU474l-YhA?width=959&height=287&cropmode=none" width="700">
  </p>
 
 For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. They used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
