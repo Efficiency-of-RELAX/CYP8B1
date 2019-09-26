@@ -62,7 +62,7 @@ HyPhy distributes a variety of methods for inferring the strength of natural sel
   </p>
   <p align="center">
   
-    The Decision tree made using datamonkey : to find the appropriate method for detecting the molecular process of interest. 
+    The Decision tree : to find the appropriate method for detecting the molecular process of interest. 
 
 RELAX is a hypothesis testing framework that asks whether the strength of natural selection has been relaxed or intensified along a specified set of test branches.
 
@@ -72,7 +72,7 @@ RELAX is a hypothesis testing framework that asks whether the strength of natura
 Here the objective is to analyze the effect of gaps in detecting relaxed selection. Essentially, a gap occurs if something happens in our genome that can't be explained by uniformity and is also more than just mis-sequencing. Here are some types of genome assembly gaps from [Chaisson et al., 2015](https://www.ncbi.nlm.nih.gov/pubmed/26442640) :
 
 <div style="float: right; margin-left: 30px;"><img title="Types of genome assembly gaps." style="float: right;margin-left: 30px;" src="https://i.stack.imgur.com/JPYZY.jpgg" align=right height=300/></div>
-                         > Types of genome assembly gaps.
+                      
 
 (a) **Sequence-coverage gaps**: absence or reduction in sequence reads at that location.  
 
@@ -104,7 +104,7 @@ To mask the sequence we used **Bedtool's** commands :
   <img src="https://hahvlw.dm.files.1drv.com/y4mb3IO83k7bJJMg5bXgxAly5D4ImA0FhPXepySdGky9b2TOyWDCZOW6UuOfYohE6jp_cVT-AXxrwoUvkq_avnSnpkGLTXXKOlBSmsk04Mt-USdynmSbwCtoYR_DUBS49MZcJttpFq2DW2Zt-OBjkWpcdUPi6GEIWPeieLEFgN_2_Gv_N3p0TSAN6mqcyrfvCqIGxMYJvFAZg5UPU474l-YhA?width=959&height=287&cropmode=none" width="700">
  </p>
  
-          How the bedtools 'random' and 'maskfasta' command works.
+                          How the bedtools 'random' and 'maskfasta' command works.
 
 For the first approach we took a gene known to be under strong relaxed selection. Here we choose the gene **CYP8B1** which is found and verified to be under strong relaxed selection in some mammals and birds (which come under a common clade called 'Amniota') by [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. They used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
 
@@ -112,7 +112,7 @@ For the first approach we took a gene known to be under strong relaxed selection
    <img src="https://hqhvlw.dm.files.1drv.com/y4mxxn8VKeSKAUsrWGeXZFZHH6hG_8MHES2STtqms_d6d4EZ6BrYbXOlMTH3uOZcQiYwbDJTlJ14bnOUn00fkvaT4awsyExwbPsTmjNxkKPR3B4fDvqrJcA-eZtqb17IbSj7VEnXVdDa_yru_jW2Ee5rCM2WA5JRlh6o-5roBkbCbYt-7QVMaRCvPiqXDzOLlbJBwH6Osql_S15yB17PyIgtw?width=1308&height=1124&cropmode=none" width="650">
  </p>
 
-        The taxonomic orders in Sagar et al., 2019 study are boxed red ~ 15 groups.   
+                   The taxonomic orders in Sagar et al., 2019 study are boxed red ~ 15 groups.   
 
 The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
 
