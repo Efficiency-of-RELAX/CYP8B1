@@ -6,7 +6,7 @@ The objective of this assignment is to analyze the effect of **'gaps'** and **'n
 - length of gaps 
 - number of species.
 ---
-**Relaxed selection** is a selective phenomena that occurs when selective pressures are either elimated or reduced.
+**Relaxed selection** is a selective phenomena that occurs when selective pressures are either eliminated or reduced.
 
 - Biotic examples 
   - Predation elimination 
@@ -25,7 +25,8 @@ Selection of any form (balancing, directional, etc.) can be relaxed. An example 
  </p>
 
 ---
-We can detect selection or signatures of selection from DNA sequence of organisms. Natural selection is based on the simple observation that fitness-enhancing traits, i.e.,
+We can detect selection or signatures of selection from DNA sequence of organisms. The past fifty six years have seen the development and application of numerous statistical methods to identify genomic regions that appear to
+be shaped by natural selection. Natural selection is based on the simple observation of fitness-enhancing traits. 
 
 <p align="middle">
    <img src="https://fki6ig.dm.files.1drv.com/y4muJuLal2yz70SMOfsuaa_qY_3HZaOKj89iOKAHUnzD2XHklC5mlxwyrJFfVCzWnrG2ZHFTY5Chqg9o_Ji47fdvU8xwZB9MRIpN_mVNSwDZOyoTn6A-bdcZ_wfiyWKM0fwDqN802EpaQ-K9ceIrXSFH8yxlSpvDEAsO9sx013Tc-AN4WEX3Vh6f-kzEUXDK9PFYBeb7I5zC_eLXI0BVGwIrQ?width=960&height=113&cropmode=none" width="750">
@@ -34,7 +35,7 @@ We can detect selection or signatures of selection from DNA sequence of organism
 Given that selection operates at the level of the phenotype, alleles showing evidence of selection are likely to be of functional relevance. There are several approaches available to detect selection at macroevolutionary scale. 
 What these methods does is :
 
-- identify sequences that are likely to be functional (either because they code for proteins or because they are conserved among different species) 
+- identify sequences that are likely to be functional (coding or conserved) 
 - Then search for lineage-specific accelerations in the rate of evolution.
 
 Such accelerations are indicated by an excess of substitutions relative to the baseline mutation rate, which can be calculated from the rate of synonymous mutations.
@@ -86,6 +87,7 @@ To mask the sequence we used **Bedtool's** commands **random** and **maskfasta**
 <p align="middle">
   <img src="https://bedtools.readthedocs.io/en/latest/_images/maskfasta-glyph.png"width="380">
   
+  &nbsp;
   
   <img src="https://bedtools.readthedocs.io/en/latest/_images/random-glyph.png" width="380">
  </p>
