@@ -110,6 +110,8 @@ For the first approach we took a gene known to be under strong relaxed selection
 
 The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out as per the pipeline mentioned in the [Shinde et al., 2019](https://link.springer.com/article/10.1007/s00239-019-09903-6?fbclid=IwAR2UL_uHcWkEfqa1GyJsq95N_t_Lcaq7TOn1UpFVNj-2ikDJnUEbHi0ZBCQ#Sec2). The major steps used in detection of the relaxed selection are listed below and a more detailed information is given in projects.
 
+---
+
 ### Results
 
 
@@ -127,6 +129,8 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 <li>modeltest-ng</li>   
 <li>raxml-ng</li>
 <li>HyPhy (2.3.14)</li>   
+
+&nbsp;
 
 #### Data is organised into the following folders
 
