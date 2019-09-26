@@ -139,6 +139,8 @@ The test for the relaxed selection of CYP8B1 gene in the amniotes is carried out
 
 &nbsp;
 
+---
+
 ### Results
 
 #### Data is organised into the following folders
