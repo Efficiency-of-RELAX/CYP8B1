@@ -9,12 +9,14 @@ The objective of this assignment is to analyze the effect of **gaps** and **numb
 
 **Relaxed selection** is a selective phenomena that occurs when selective pressures are either eliminated or reduced.
 
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://ikhvlw.dm.files.1drv.com/y4mrUlvZGD7chTw14AiMM1N50xXkAGMT2IcKmVbR9vmmNQ9Nhd8EwIIdxMZu0e9fL1qr4IDb6p52xZiGNHP4AB0YWUUgmD8kBKMpIMvPdGTEp5L1DpLBEfX2mf6L3TakMphtCgCSriPNe79XgepJrWwUf-350Gd9wPfSQXK5rQH5jmloiOW-pkwBg044473Vxg1La19rvaNIh4QRwO1MXBkfg?width=799&height=540&cropmode=none" align=right height=250/></div>
+
 - Biotic sources :
   - Predation elimination 
   - Elimination of pathogen
 - Abiotic sources :
-  - Changes in light and temperature and water
-  - Changes soil and mineral composition 
+  - Changes in light, temperature or water
+  - Changes composition of soil or mineral
 
 ---
 ### Alternatives to Relaxed selection.
