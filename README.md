@@ -7,7 +7,7 @@ The objective of this assignment is to analyze the effect of **gaps** and **numb
 ---
 ### What is Relaxed Selection ?
 
-<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://h6hvlw.dm.files.1drv.com/y4m4MoEEOGW-OdYeKSGax_qRUnKXMSyZEvZVYNBlAZlKSTdq0a9h7xMEU8pNqCW1oZQ4X_Tx12qWyfx26yUK88jboG4WQpEVQg8yLK2kSPNxjxElndInuakWvwJGL1ur6LmkhXq4RGmHClgl-lNOWA3YHg_KdCykguTfFsbSV13EkX7PLZuemix9AApmfBDC7fnTPrzLclUiCw2R-jadRAXpw?width=686&height=540&cropmode=none" align=right height=200/></div>
+<div style="float: right; margin-left: 30px;"><img title="Logo by @gregcaporaso." style="float: right;margin-left: 30px;" src="https://h6hvlw.dm.files.1drv.com/y4m4MoEEOGW-OdYeKSGax_qRUnKXMSyZEvZVYNBlAZlKSTdq0a9h7xMEU8pNqCW1oZQ4X_Tx12qWyfx26yUK88jboG4WQpEVQg8yLK2kSPNxjxElndInuakWvwJGL1ur6LmkhXq4RGmHClgl-lNOWA3YHg_KdCykguTfFsbSV13EkX7PLZuemix9AApmfBDC7fnTPrzLclUiCw2R-jadRAXpw?width=686&height=540&cropmode=none" align=right height=230/></div>
 
 **Relaxed selection** is a selective phenomena that occurs when selective pressures are either eliminated or reduced.
 
