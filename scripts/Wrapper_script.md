@@ -17,7 +17,7 @@
 - [MUSCLE](https://www.drive5.com/muscle/)  -  v3.8.31
 - [MAFFT](https://mafft.cbrc.jp/alignment/software/)  -  v7.450
 - [CLUSTALW](http://www.clustal.org/)  -  v2.0.12
-- [Guidance2](http://wasabiapp.org/software/pagan/)  -  v2.02
+- [Guidance2](http://guidance.tau.ac.il/ver2/)  v2.02
 - [Seqkit](https://github.com/shenwei356/seqkit) - v0.10.2
 - [MUMSA](http://msa.sbc.su.se/cgi-bin/msa.cgi) - v1.0
 - [ModelTest-NG](https://github.com/ddarriba/modeltest) v0.1.5
