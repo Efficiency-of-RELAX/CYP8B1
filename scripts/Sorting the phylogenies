@@ -1,0 +1,9 @@
+INSTALL   newick_utilis
+
+Download the tar file from http://cegg.unige.ch/newick_utils from Binaries section.
+Untar it at the desired location.:
+tar -xzf newick-utils-1.6-Linux-x86_64-disabled-extra.tar.gz 
+cd newick-utils-1.6/
+ ./configure
+make
+sudo cp src/nw_* /usr/local/bin
