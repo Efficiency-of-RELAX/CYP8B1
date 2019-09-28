@@ -6,4 +6,16 @@ tar -xzf newick-utils-1.6-Linux-x86_64-disabled-extra.tar.gz
 cd newick-utils-1.6/
  ./configure
 make
-sudo cp src/nw_* /usr/local/bin
+no need to transfer the nw_* files to the bin folder.
+cd newick-utils-1.6/src
+nw_topology "$i"_PRANK.aln.raxml.bootstraps|nw_reroot - $roottax|nw_order -|sort|uniq -c|awk '$1>100{print $2}' > 10per_more.txt
+top10per=`cat 10per_more.txt|wc -l`
+echo "$top10per topologies supported by more than 10 percent of the trees." >> "$i".log
+nw_topology "$i"_PRANK.aln.raxml.bootstraps|nw_reroot - $roottax|nw_order -|sort|uniq -c|awk '$1>10{print $2}' > 1per_more.txt
+top1per=`cat 1per_more.txt|wc -l`
+ceglab26@ceglab26-HP-280-G2-MT:~/programs/newick-utils-1.6/src$ echo "$top1per topologies supported by more than 1 percent of the trees." >> "$i".log
+
+taxcount=`grep ">" "$i"_PRANK.aln|wc -l`
+grep ">" "$i"_PRANK.aln|sed 's/>//g' > taxlist.txt
+echo -ne "$i\t$alncomp\t$model\t$roottax\t$top10per\t$top1per\n" >> ../all.stats
+
