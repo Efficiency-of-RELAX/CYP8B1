@@ -7,3 +7,50 @@ i=/home/ceglab26/CYP8B1/ORFs/2_Afrotheria.fa
 guidance=/home/ceglab26/programs/guidance.v2.02/www/Guidance/
 perl $guidance/guidance.pl --program GUIDANCE --seqFile "$i" --msaProgram PRANK --seqType codon --outDir "$i".100_PRANK --genCode 1 --bootstraps 100 --proc_num 8
 #the results are saved in a folder called 2_Afrotheria.fa.100_PRANK in ORFs folder in CYP8B1
+ cp -r 2_Afrotheria.fa.100_PRANK/ ~/Outresults/     #Copy results to Outresults
+ perl $guidance/guidance.pl --program GUIDANCE --seqFile "$i" --msaProgram MUSCLE --seqType codon --outDir "$i".100_MUSCLE --genCode 1 --bootstraps 100 --proc_num 8
+cp -r 2_Afrotheria.fa.100_MUSCLE/ ~/Outresults/
+perl $guidance/guidance.pl --program GUIDANCE --seqFile "$i" --msaProgram CLUSTALW --seqType codon --outDir "$i".100_CLUSTALW --genCode 1 --bootstraps 100 --proc_num 8
+cp -r 2_Afrotheria.fa.100_CLUSTALW/ ~/Outresults/
+perl $guidance/guidance.pl --program GUIDANCE --seqFile "$i" --msaProgram MAFFT --seqType codon --outDir "$i".100_MAFFT --genCode 1 --bootstraps 100 --proc_num 8
+cp -r 2_Afrotheria.fa.100_MAFFT/ ~/Outresults/
+
+#Using seqkit for ordering the MSA results
+seqkit sort "$i".100_PRANK/MSA.PRANK.aln.With_Names >"$i"_PRANK.aln
+cp -r 2_Afrotheria.fa_PRANK.aln ~/Outresults/
+seqkit sort "$i".100_MUSCLE/MSA.MUSCLE.aln.With_Names >"$i"_MUSCLE.aln
+cp -r 2_Afrotheria.fa_MUSCLE.aln ~/Outresults/
+seqkit sort "$i".100_CLUSTALW/MSA.CLUSTALW.aln.With_Names >"$i"_CLUSTALW.aln
+cp -r 2_Afrotheria.fa_CLUSTALW.aln ~/Outresults/
+seqkit sort "$i".100_MAFFT/MSA.MAFFT.aln.With_Names >"$i"_MAFFT.aln
+cp -r 2_Afrotheria.fa_MAFFT.aln ~/Outresults/
+
+#Use Mumsa to assess the quality of multiple sequence alignments
+echo "MUMSA comparison results of mumsa -g -s "$i"_PRANK.aln "$i"_MUSCLE.aln "$i"_CLUSTALW.aln "$i"_MAFFT.aln" > "$i".log
+mumsa -g -s "$i"_PRANK.aln "$i"_MUSCLE.aln "$i"_CLUSTALW.aln "$i"_MAFFT.aln >> "$i".log 
+alncomp=`mumsa -g -s "$i"_PRANK.aln "$i"_MUSCLE.aln "$i"_CLUSTALW.aln "$i"_MAFFT.aln`
+
+#use modeltest for testing models
+modeltest-ng -i "$i"_MAFFT.aln -t ml -T raxml
+modeltest-ng -i "$i"_PRANK.aln -t ml -T raxml
+modeltest-ng -i "$i"_MUSCLE.aln -t ml -T raxml
+modeltest-ng -i "$i"_CLUSTALW.aln -t ml -T raxml
+
+for j in "$i"_PRANK "$i"_MUSCLE "$i"_CLUSTALW "$i"_MAFFT
+do
+BICmodel=`grep -A 2 "Best model according to BIC" "$j".aln.out|tail -1|awk '{print $2}'`
+AICmodel=`grep -A 2 "Best model according to AICc" "$j".aln.out|tail -1|awk '{print $2}'`
+echo $j $BICmodel $AICmodel
+done
+
+j="$i"_PRANK
+model=`grep -A 2 "Best model according to BIC" "$j".aln.out|tail -1|awk '{print $2}'`
+
+
+#Using PRANK to make phylogenetic trees:
+echo "Model $model has been selected." >> "$i".log
+
+#Build phylogenies with bootstrap - Using github repository raxmlng
+raxml-ng --all -msa "$i"_PRANK.aln --model $model --bs-trees 1000 --threads 2
+roottax=`grep ">" "$i"_PRANK.aln|head -1|sed 's/>//g'`
+
