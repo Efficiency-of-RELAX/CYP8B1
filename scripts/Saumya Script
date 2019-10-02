@@ -1,10 +1,10 @@
 #follow the steps:
-cd /home/ceglab26/CYP8B1/ORFs/
+cd /home/sequencer/CYP8B1/ORFs/
 bioawk -cfastx '{print $name, length($seq)}' 2_Afrotheria.fa > gene_length.txt
 bedtools random -n 3 -l 5 -g gene_length.txt -seed 666 > l5_n3_gaps.bed
 bedtools maskfasta -fi 2_Afrotheria.fa -bed l5_n3_gaps.bed -fo masked.fa
-i=/home/ceglab26/CYP8B1/ORFs/2_Afrotheria.fa
-guidance=/home/ceglab26/programs/guidance.v2.02/www/Guidance/
+i=/home/sequencer/CYP8B1/ORFs/2_Afrotheria.fa
+guidance=/home/sequencer/programs/guidance.v2.02/www/Guidance/
 perl $guidance/guidance.pl --program GUIDANCE --seqFile "$i" --msaProgram PRANK --seqType codon --outDir "$i".100_PRANK --genCode 1 --bootstraps 100 --proc_num 8
 #the results are saved in a folder called 2_Afrotheria.fa.100_PRANK in ORFs folder in CYP8B1
  cp -r 2_Afrotheria.fa.100_PRANK/ ~/Outresults/     #Copy results to Outresults
@@ -31,7 +31,8 @@ mumsa -g -s "$i"_PRANK.aln "$i"_MUSCLE.aln "$i"_CLUSTALW.aln "$i"_MAFFT.aln >> "
 alncomp=`mumsa -g -s "$i"_PRANK.aln "$i"_MUSCLE.aln "$i"_CLUSTALW.aln "$i"_MAFFT.aln`
 
 #use modeltest for testing models
-modeltest-ng -i "$i"_MAFFT.aln -t ml -T raxml
+model
+test-ng -i "$i"_MAFFT.aln -t ml -T raxml
 modeltest-ng -i "$i"_PRANK.aln -t ml -T raxml
 modeltest-ng -i "$i"_MUSCLE.aln -t ml -T raxml
 modeltest-ng -i "$i"_CLUSTALW.aln -t ml -T raxml
