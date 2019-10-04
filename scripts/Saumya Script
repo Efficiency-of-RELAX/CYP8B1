@@ -31,8 +31,7 @@ mumsa -g -s "$i"_PRANK.aln "$i"_MUSCLE.aln "$i"_CLUSTALW.aln "$i"_MAFFT.aln >> "
 alncomp=`mumsa -g -s "$i"_PRANK.aln "$i"_MUSCLE.aln "$i"_CLUSTALW.aln "$i"_MAFFT.aln`
 
 #use modeltest for testing models
-model
-test-ng -i "$i"_MAFFT.aln -t ml -T raxml
+modeltest-ng -i "$i"_MAFFT.aln -t ml -T raxml
 modeltest-ng -i "$i"_PRANK.aln -t ml -T raxml
 modeltest-ng -i "$i"_MUSCLE.aln -t ml -T raxml
 modeltest-ng -i "$i"_CLUSTALW.aln -t ml -T raxml
