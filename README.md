@@ -126,7 +126,7 @@ For the first approach we took a gene known to be under strong relaxed selection
 CYP8B1 is a single exonic gene that determines the ratio of primary bile salts. The loss of this gene has been linked to lack of cholic acid in naked mole rats, elephants and manatees. The Sagar et., 2019 used CYP8B1 gene ORFs from more than 200 species of birds and mammals to look for signatures of relaxed selection.
 
 <p align="middle">
-   <img src="https://hqhvlw.dm.files.1drv.com/y4mxxn8VKeSKAUsrWGeXZFZHH6hG_8MHES2STtqms_d6d4EZ6BrYbXOlMTH3uOZcQiYwbDJTlJ14bnOUn00fkvaT4awsyExwbPsTmjNxkKPR3B4fDvqrJcA-eZtqb17IbSj7VEnXVdDa_yru_jW2Ee5rCM2WA5JRlh6o-5roBkbCbYt-7QVMaRCvPiqXDzOLlbJBwH6Osql_S15yB17PyIgtw?width=1308&height=1124&cropmode=none" width="650">
+   <img src="https://h6jifq.dm.files.1drv.com/y4mbrncijkCvl8z7z6rMbGs_u3IERSFW78Jqq_7BYsbmxcCGgeq5becpAbHVxh-ChmmG9_PEEkE365YNl4Tq3x6jJWwXYL19J7uaKTKFWjMhwjF6KpcDIkfTqqPFvyuw_ZCtm99xNoElTzySJqNJz-Lxspy2rE7E-MO_nm3zdfxDKS56biOF75AncHS-QxTv9ue1Mxp4o1tO2Jm0J_G0tclcA?width=840&height=723&cropmode=none" width="650">
  </p>
 
                    The taxonomic orders in Sagar et al., 2019 study are boxed red ~ 15 groups.   
